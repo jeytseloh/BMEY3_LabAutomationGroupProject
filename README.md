@@ -9,6 +9,11 @@
 </h3>
 
 ## 🗂 File Structure
+.
+├── LabOP                   # Folder for LabOP Framework Files
+├── Opentrons               # Folder for Opentrons Framework Files
+├── .gitignore
+└── README.md
 
 ## 🚀 Quick start
 
