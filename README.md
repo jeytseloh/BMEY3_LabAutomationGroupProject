@@ -9,11 +9,10 @@
 </h3>
 
 ## 🗂 File Structure
-.
-├── LabOP                   # Folder for LabOP Framework Files
-├── Opentrons               # Folder for Opentrons Framework Files
-├── .gitignore
-└── README.md
+* [LabOP/](./BMEY3_LabAutomationGroupProject/LabOP)
+* [Opentrons/](./BMEY3_LabAutomationGroupProject/Opentrons)
+* [.gitignore](./BMEY3_LabAutomationGroupProject/.gitignore)
+* [README.md](./BMEY3_LabAutomationGroupProject/README.md)
 
 ## 🚀 Quick start
 
