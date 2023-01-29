@@ -9,11 +9,14 @@
 </h3>
 
 ## 🗂 File Structure
-* [LabOP/](./BMEY3_LabAutomationGroupProject/LabOP)
-* [Opentrons/](./BMEY3_LabAutomationGroupProject/Opentrons)
-* [.gitignore](./BMEY3_LabAutomationGroupProject/.gitignore)
-* [README.md](./BMEY3_LabAutomationGroupProject/README.md)
+
+- [LabOP/](./BMEY3_LabAutomationGroupProject/LabOP)
+- [Opentrons/](./BMEY3_LabAutomationGroupProject/Opentrons)
+  - [Golden Gate/](./BMEY3_LabAutomationGroupProject/Opentrons/Golden Gate)
+  - [Tests/](./BMEY3_LabAutomationGroupProject/Opentrons/Tests)
+- [.gitignore](./BMEY3_LabAutomationGroupProject/.gitignore)
+- [README.md](./BMEY3_LabAutomationGroupProject/README.md)
 
 ## 🚀 Quick start
 
-## 🛠 Functionality 
+## 🛠 Functionality
