@@ -9,11 +9,13 @@
 </h3>
 
 ## 🗂 File Structure
-* [LabOP/](./BMEY3_LabAutomationGroupProject/LabOP)
-* [Opentrons/](./BMEY3_LabAutomationGroupProject/Opentrons)
-* [.gitignore](./BMEY3_LabAutomationGroupProject/.gitignore)
-* [README.md](./BMEY3_LabAutomationGroupProject/README.md)
+- [LabOP/](./BMEY3_LabAutomationGroupProject/LabOP)
+- [Opentrons/](./BMEY3_LabAutomationGroupProject/Opentrons)
+  - [Tests/](./BMEY3_LabAutomationGroupProject/Opentrons/Tests)
+- [.gitignore](./BMEY3_LabAutomationGroupProject/.gitignore)
+- [README.md](./BMEY3_LabAutomationGroupProject/README.md)
 
 ## 🚀 Quick start
+Note for the Opentrons framework you must use a Python Version between 3.7.0 and 3.9.9 to be able to simulate the protocols.
 
-## 🛠 Functionality 
+## 🛠 Functionality
