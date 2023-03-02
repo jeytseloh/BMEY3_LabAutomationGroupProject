@@ -7,6 +7,7 @@ The "-o nothing" suffix will hide the output for if you just want to check the p
 '''
 # Default import that is always needed.
 from opentrons import protocol_api
+import opentrons.execute
 
 # Most Metadata is optional but you MUST include "apiLevel"
 metadata = {
@@ -52,3 +53,7 @@ def run(protocol: protocol_api.ProtocolContext):
 
     # Do we need to specify new tip etc?
 
+
+#Code to run protocol
+#protocol = opentrons.execute.get_protocol_api('2.13')
+#run(protocol)  # your protocol will now run

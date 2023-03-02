@@ -7,6 +7,8 @@ The "-o nothing" suffix will hide the output for if you just want to check the p
 '''
 # Default import that is always needed.
 from opentrons import protocol_api
+import opentrons.execute
+
 
 # Most Metadata is optional but you MUST include "apiLevel"
 metadata = {
@@ -69,4 +71,3 @@ def run(protocol: protocol_api.ProtocolContext):
     #tc_mod.execute_profile(steps=profile, repetitions=1, block_max_volume=40)
 
     # Do we need to specify new tip etc?
-
