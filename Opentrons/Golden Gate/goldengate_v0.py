@@ -56,8 +56,17 @@ def run(protocol: protocol_api.ProtocolContext):
     
     #Close thermocycler lid and incubate
     tc_mod.close_lid()
+    #Incubate at 37 degrees for 60 minutes
+    tc_mod.set_lid_temperature(temperature=47)#10 degrees higher than inside
+    tc_mod.set_block_temperature(temperature=37, hold_time_minutes=60, block_max_volume=40) # check when time starts
+
+    #Incubate at 60 degrees for 5 minutes
+    tc_mod.set_lid_temperature(temperature=70)#10 degrees higher than inside
+    tc_mod.set_block_temperature(temperature=60, hold_time_minutes=5, block_max_volume=40) # check when time starts
+
+
     #Do we need to specify lid temp separately here?/ Do we even need to set lid temp?
-    tc_mod.execute_profile(steps=profile, repetitions=1, block_max_volume=40)
+    #tc_mod.execute_profile(steps=profile, repetitions=1, block_max_volume=40)
 
     # Do we need to specify new tip etc?
 

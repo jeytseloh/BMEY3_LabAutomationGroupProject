@@ -46,9 +46,9 @@ def run(protocol: protocol_api.ProtocolContext):
     p20.transfer(2, reagents.wells_by_name()['A4'], tc_plate.columns_by_name()['2'], mix_after=(5, 20))
     #Close thermocycler lid and incubate
     tc_mod.close_lid()
-    tc_mod.set_lid_temperature(temperature=50)
+    tc_mod.set_lid_temperature(temperature=60)#10 degrees higher than inside 
     #Do we need to set lid temp or is this insignificant?
-    tc_mod.set_block_temperature(temperature=50, hold_time_minutes=15, block_max_volume=40)
+    tc_mod.set_block_temperature(temperature=50, hold_time_minutes=15, block_max_volume=40) # check when time starts
 
     # Do we need to specify new tip etc?
 
