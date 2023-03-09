@@ -24,8 +24,12 @@ def run(protocol: protocol_api.ProtocolContext):
     destination_well = destination_plate.wells()[0]
 
     # Transfer the DNA fragments to the destination well
+
     pipette.transfer(5, fragment_1_well, destination_well, new_tip='always')
-    pipette.transfer(5, fragment_2_well, destination_well, new_tip='always')
+    if len(destination_well) == 0:
+        print("Error: No destinations available for transfer.")
+    else:
+        pipette.transfer(5, fragment_2_well, destination_well, new_tip='always')
 
     # Add the ligation buffer and incubate the reaction mixture
     pipette.transfer(10, source_plate.wells()[2], destination_well, new_tip='always')

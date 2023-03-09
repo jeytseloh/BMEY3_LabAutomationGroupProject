@@ -12,12 +12,9 @@ import opentrons.execute
 # Most Metadata is optional but you MUST include "apiLevel"
 metadata = {
     'apiLevel': '2.12',
-    'protocolName': 'Serial Dilution Tutorial',
-    'description': '''This protocol is the outcome of following the
-                   Python Protocol API Tutorial located at
-                   https://docs.opentrons.com/v2/tutorial.html. It takes a
-                   solution and progressively dilutes it by transferring it
-                   stepwise across a plate.''',
+    'protocolName': 'Gibson OT API v0',
+    'description': '''This protocol is the first draft of the Gibson assembly protocol as given by: 
+                        https://international.neb.com/protocols/2012/12/11/gibson-assembly-protocol-e5510 ''',
     'author': 'New API User'
     }
 
