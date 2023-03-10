@@ -11,8 +11,9 @@ import opentrons.execute
 # Most Metadata is optional but you MUST include "apiLevel"
 metadata = {
     'apiLevel': '2.0',
-    'protocolName': 'Transfer Unit Test v0',
-    'description': '''This protocol is a unit test designed to validate accuracy in transferring 10ul ''',
+    'protocolName': 'Thermocycler Gibson Unit Test v0',
+    'description': '''This protocol is a unit test designed to test thermocycler function 
+                    and timing using the parameters used in the Gibson protocol ''',
     'author': 'New API User'
     }
 
@@ -25,7 +26,7 @@ def run(protocol: protocol_api.ProtocolContext):
     p20 = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tiprack])
     tc_mod = protocol.load_module('thermocycler')
     print(tc_mod.block_temperature_status)
-    tc_mod.set_block_temperature(temperature=4, block_max_volume=40)
+    tc_mod.set_block_temperature(temperature=4, hold_time_minutes=1, block_max_volume=40)
     print(tc_mod.block_temperature_status)
-    tc_mod.set_block_temperature(temperature=50, block_max_volume=40) # check when time starts
+    tc_mod.set_block_temperature(temperature=50, hold_time_minutes=1, block_max_volume=40) # check when time starts
     print(tc_mod.block_temperature_status)

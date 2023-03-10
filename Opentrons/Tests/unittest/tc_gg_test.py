@@ -11,8 +11,9 @@ import opentrons.execute
 # Most Metadata is optional but you MUST include "apiLevel"
 metadata = {
     'apiLevel': '2.0',
-    'protocolName': 'Transfer Unit Test v0',
-    'description': '''This protocol is a unit test designed to validate accuracy in transferring 10ul ''',
+    'protocolName': 'Thermocycler Golden Gate Unit Test v0',
+    'description': '''This protocol is a unit test designed to test thermocycler function 
+                    and timing using the parameters used in the Golden Gate protocol ''',
     'author': 'New API User'
     }
 
