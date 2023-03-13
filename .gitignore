@@ -28,3 +28,4 @@ container-ontology
 test/out
 .env
 labOP_env/
+owlery/
