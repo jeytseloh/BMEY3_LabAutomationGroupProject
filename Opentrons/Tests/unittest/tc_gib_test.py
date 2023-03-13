@@ -11,9 +11,10 @@ import opentrons.execute
 # Most Metadata is optional but you MUST include "apiLevel"
 metadata = {
     'apiLevel': '2.0',
-    'protocolName': 'Thermocycler Gibson Unit Test v0',
+    'protocolName': 'Thermocycler Gibson Unit Test v0.1',
     'description': '''This protocol is a unit test designed to test thermocycler function 
-                    and timing using the parameters used in the Gibson protocol ''',
+                    and timing using the parameters used in the Gibson protocol 
+                    Changed tiprack to 10ul''',
     'author': 'New API User'
     }
 
@@ -21,7 +22,7 @@ metadata = {
 # def run(protocol: protocol_api.ProtocolContext):
 def run(protocol: protocol_api.ProtocolContext):
     #Set up labware 
-    tiprack = protocol.load_labware('opentrons_96_tiprack_20ul', 1)
+    tiprack = protocol.load_labware('opentrons_96_tiprack_10ul', 1)
     well_plate = protocol.load_labware('nest_96_wellplate_2ml_deep', 4)
     p20 = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tiprack])
     tc_mod = protocol.load_module('thermocycler')
