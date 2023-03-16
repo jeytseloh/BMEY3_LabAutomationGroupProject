@@ -12,6 +12,10 @@ def run(protocol: protocol_api.ProtocolContext):
     p20_single_gen2.tip_racks.append(labware1)
     labware4 = protocol.load_labware('nest_96_wellplate_200ul_flat', '4')
     labware7 = thermocycler_module.load_labware('biorad_96_wellplate_200ul_pcr')
+    thermocycler_module.close_lid()
+    profile = [{'temperature': 0.0, 'hold_time_seconds': 0.0}, {'temperature': 0.0, 'hold_time_seconds': 0.0}, {'temperature': 0.0, 'hold_time_seconds': 0.0}]
+    thermocycler_module.execute_profile(steps=profile, repetitions=1)
+    thermocycler_module.set_block_temperature(4)
     p20_single_gen2.transfer(10.0, labware4['A2'], labware7['A1'])  # 2. Add deionized H2O for assembly reaction (first transfer)
     p20_single_gen2.transfer(10.0, labware4['A2'], labware7['B1'])  # 2. Add deionized H2O for assembly reaction (first transfer)
     p20_single_gen2.transfer(10.0, labware4['A2'], labware7['C1'])  # 2. Add deionized H2O for assembly reaction (first transfer)
@@ -108,3 +112,7 @@ def run(protocol: protocol_api.ProtocolContext):
     p20_single_gen2.transfer(2.0, labware4['A4'], labware7['F2'])  # 9. Add DNA fragment 2 for negative control
     p20_single_gen2.transfer(2.0, labware4['A4'], labware7['G2'])  # 9. Add DNA fragment 2 for negative control
     p20_single_gen2.transfer(2.0, labware4['A4'], labware7['H2'])  # 9. Add DNA fragment 2 for negative control
+    thermocycler_module.close_lid()
+    profile = [{'temperature': 50.0, 'hold_time_seconds': 15.0}, {'temperature': 0.0, 'hold_time_seconds': 0.0}, {'temperature': 0.0, 'hold_time_seconds': 0.0}]
+    thermocycler_module.execute_profile(steps=profile, repetitions=1)
+    thermocycler_module.set_block_temperature(4)

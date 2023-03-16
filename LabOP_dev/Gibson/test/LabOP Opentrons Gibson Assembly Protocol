@@ -140,8 +140,8 @@ digraph _root {
   <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="OutputPin1" border="1">samples</td><td> </td></tr></table></td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction15 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">location: Thermocycler Module</td><td> </td><td port="ValuePin2" border="1">temperature: 4.0 degree Celsius</td><td> </td></tr></table></td></tr>
-  <tr><td port="node" bgcolor="white" border="1">Hold</td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">cycles: 1</td><td> </td><td port="ValuePin2" border="1">denaturation_temp: 0.0 degree Celsius</td><td> </td><td port="ValuePin3" border="1">denaturation_time: 0.0 minute</td><td> </td><td port="ValuePin4" border="1">annealing_temp: 0.0 degree Celsius</td><td> </td><td port="ValuePin5" border="1">annealing_time: 0.0 second</td><td> </td><td port="ValuePin6" border="1">extension_temp: 0.0 degree Celsius</td><td> </td><td port="ValuePin7" border="1">extension_time: 0.0 second</td><td> </td></tr></table></td></tr>
+  <tr><td port="node" bgcolor="white" border="1">PCR</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction16 [label=<<table border="0" cellspacing="0">
   <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td></tr></table></td></tr>
@@ -202,8 +202,8 @@ digraph _root {
   <tr><td port="node" bgcolor="white" border="1">PipetteMix</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction29 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">location: Thermocycler Module</td><td> </td><td port="ValuePin2" border="1">duration: 15.0 minute</td><td> </td><td port="ValuePin3" border="1">temperature: 50.0 degree Celsius</td><td> </td></tr></table></td></tr>
-  <tr><td port="node" bgcolor="white" border="1">Incubate</td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">cycles: 1</td><td> </td><td port="ValuePin2" border="1">denaturation_temp: 50.0 degree Celsius</td><td> </td><td port="ValuePin3" border="1">denaturation_time: 15.0 minute</td><td> </td><td port="ValuePin4" border="1">annealing_temp: 0.0 degree Celsius</td><td> </td><td port="ValuePin5" border="1">annealing_time: 0.0 second</td><td> </td><td port="ValuePin6" border="1">extension_temp: 0.0 degree Celsius</td><td> </td><td port="ValuePin7" border="1">extension_time: 0.0 second</td><td> </td></tr></table></td></tr>
+  <tr><td port="node" bgcolor="white" border="1">PCR</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 	}
 }
