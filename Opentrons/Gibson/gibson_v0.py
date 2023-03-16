@@ -12,9 +12,10 @@ import opentrons.execute
 # Most Metadata is optional but you MUST include "apiLevel"
 metadata = {
     'apiLevel': '2.12',
-    'protocolName': 'Gibson OT API v0',
+    'protocolName': 'Gibson OT API v0.1',
     'description': '''This protocol is the first draft of the Gibson assembly protocol as given by: 
-                        https://international.neb.com/protocols/2012/12/11/gibson-assembly-protocol-e5510 ''',
+                        https://international.neb.com/protocols/2012/12/11/gibson-assembly-protocol-e5510
+                         v0.1 changed labware to custom labware (well plate and pcr plate) ''',
     'author': 'New API User'
     }
 
@@ -24,9 +25,9 @@ def run(protocol: protocol_api.ProtocolContext):
     #Set up labware and initial conditions
     tc_mod = protocol.load_module('thermocycler')
     tc_mod.set_block_temperature(temperature=4, block_max_volume=40)
-    tc_plate = tc_mod.load_labware('nest_96_wellplate_100ul_pcr_full_skirt', label = 'Destination Plate')
+    tc_plate = tc_mod.load_labware('framestar_96_aluminumblock_200ul', label = 'Destination Plate')
     tiprack = protocol.load_labware('opentrons_96_tiprack_20ul', 1)
-    reagents = protocol.load_labware('nest_96_wellplate_2ml_deep', 4)
+    reagents = protocol.load_labware('masterblock_96_wellplate_2000ul', 4)
     p20 = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tiprack])
     
     #Transfer H2O - Assembly Reaction + Negative Control
