@@ -34,10 +34,9 @@ print('Setting up document')
 doc = sbol3.Document()
 sbol3.set_namespace('https://unittest.com/')
 
-protocol = labop.Protocol('tc_gg_unit_test_labop_v0')
+protocol = labop.Protocol('tc_gib_unit_test_labop_v0')
 protocol.name = "Thermocycler Golden Gate Unit Test Using LabOP v0"
-protocol.description = '''This protocol is a unit test designed to test thermocycler function and 
-                        timing using the parameters used in the Golden Gate protocol, written in LabOP'''
+protocol.description = '''This protocol is a unit test designed to test thermocycler function and timing using the parameters used in the Golden Gate protocol, written in LabOP'''
 doc.add(protocol)
 
 # create the materials to be provisioned
@@ -71,6 +70,12 @@ spec_well_plate = labop.ContainerSpec('reagent_plate',
                                       queryString=REVERSE_LABWARE_MAP['nest_96_wellplate_200ul_flat'],
                                     #   queryString='cont:NEST96WellPlate',
                                       prefixMap=PREFIX_MAP)
+spec_destination_plate = labop.ContainerSpec('destination_plate',
+                                        name='Destination plate',
+                                        queryString=REVERSE_LABWARE_MAP['biorad_96_wellplate_200ul_pcr'],
+                                        # queryString='cont:BioRad96WellPCRPlate', # NEST 96 PCR
+                                        prefixMap=PREFIX_MAP)
+
 doc.add(spec_tiprack)
 doc.add(spec_well_plate)
 
@@ -81,5 +86,23 @@ load = protocol.primitive_step('LoadRackOnInstrument',
 load = protocol.primitive_step('LoadRackOnInstrument',
                                           rack=spec_well_plate,
                                           coordinates='4')
+load = protocol.primitive_step('LoadContainerOnInstrument',
+                               specification=spec_destination_plate,
+                               instrument=thermocycler,
+                               slots='A1:H12') # 96 wells
 
-# not sure what the equivalent of block_temperature_status is in labop
+pcr = protocol.primitive_step('PCR',
+                              denaturation_temp=sbol3.Measure(37, tyto.OM.degree_Celsius),
+                              denaturation_time=sbol3.Measure(3600, tyto.OM.second),
+                              annealing_temp=sbol3.Measure(60, tyto.OM.degree_Celsius),
+                              annealing_time=sbol3.Measure(300, tyto.OM.second),
+                              extension_temp=sbol3.Measure(0, tyto.OM.degree_Celsius),
+                              extension_time=sbol3.Measure(0, tyto.OM.second),
+                              cycles=1)
+pcr.name = '11. Incubate at 37C for 1 hour, then 60C for 5 minutes'
+
+filename = "ot2_tc_gg_unit_test_labop"
+agent = sbol3.Agent("ot2_machine", name="OT2 machine")
+ee = ExecutionEngine(specializations=[OT2Specialization(filename)])
+parameter_values = []
+execution = ee.execute(protocol, agent, id="test_execution")

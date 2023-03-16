@@ -109,6 +109,10 @@ transfer = protocol.primitive_step('Transfer',
                                    destination=destination_well_column.output_pin('samples'),
                                    amount=sbol3.Measure(10, tyto.OM.microliter))
 
+out_dir = os.path.join(os.path.abspath(""), "out")
+if not os.path.exists(out_dir):
+    os.mkdir(out_dir)
+
 filename = "ot2_transfer_unit_test_labop"
 agent = sbol3.Agent("ot2_machine", name="OT2 machine")
 ee = ExecutionEngine(specializations=[OT2Specialization(filename)])
