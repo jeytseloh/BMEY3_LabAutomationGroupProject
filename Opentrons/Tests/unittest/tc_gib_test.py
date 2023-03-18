@@ -1,6 +1,6 @@
 
 '''
-Navigate to the correct folder then type "opentrons_simulate tc_test.py -e" to simulate this file.
+Navigate to the correct folder then type "opentrons_simulate tc_gib_test.py -e" to simulate this file.
 The "-e" suffix gives an estimated duration for the protocol.
 The "-o nothing" suffix will hide the output for if you just want to check the protocol runs.
 '''
