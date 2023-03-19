@@ -18,7 +18,8 @@ metadata = {
                          v0.1 changed labware to custom labware (well plate and pcr plate) 
                          v0.2 Changed to new tip=always for transfers excluding first transfer
                          v1.0 Optimising after first dry run: combine all H20 transfers for negative control, 
-                                add p300 right pipette, and change single channel to 8 channel pipettes''',
+                                add p300 right pipette, and change single channel to 8 channel pipettes, 
+                                changed incubation time to 1 min for dry runs''',
     'author': 'New API User'
     }
 
@@ -36,21 +37,28 @@ def run(protocol: protocol_api.ProtocolContext):
     p300 = protocol.load_instrument('p300_multi', 'right', tip_racks=[tiprack300])
     
     #Transfer H2O - Assembly Reaction + Negative Control
-    p300.transfer(16, reagents.columns_by_name()['2'], tc_plate.columns_by_name()['1'])
-    p300.transfer(36, reagents.columns_by_name()['2'], tc_plate.columns_by_name()['2'])
+    p300.transfer(16, reagents.wells_by_name()['A2'], tc_plate.wells_by_name()['A1'])
+    p300.transfer(36, reagents.wells_by_name()['A2'], tc_plate.wells_by_name()['A2'])
     #Transfer Gibson Master Mix - Assembly Reaction
-    p300.transfer(20, reagents.columns_by_name()['1'], tc_plate.columns_by_name()['1'])
+    p300.transfer(20, reagents.wells_by_name()['A1'], tc_plate.wells_by_name()['A1'])
     #Transfer DNA Fragment 1 - Assembly Reaction + Negative Control 
-    p10.transfer(2, reagents.columns_by_name()['3'], tc_plate.columns_by_name()['1'])
-    p10.transfer(2, reagents.columns_by_name()['3'], tc_plate.columns_by_name()['2'])
+    p10.transfer(2, reagents.wells_by_name()['A3'], tc_plate.wells_by_name()['A1'])
+    p10.transfer(2, reagents.wells_by_name()['A3'], tc_plate.wells_by_name()['A2'])
     #Transfer DNA Fragment 2 - Assembly Reaction + Negative Control 
-    p10.transfer(2, reagents.columns_by_name()['4'], tc_plate.columns_by_name()['1'], mix_after=(5, 20))
-    p10.transfer(2, reagents.columns_by_name()['4'], tc_plate.columns_by_name()['2'], mix_after=(5, 20))
+    p10.transfer(2, reagents.wells_by_name()['A4'], tc_plate.wells_by_name()['A1'])
+    p10.transfer(2, reagents.wells_by_name()['A4'], tc_plate.wells_by_name()['A2'])
+    #Mix
+    p300.pick_up_tip(tiprack300.wells_by_name()['A4'])
+    p300.mix(5,20, tc_plate.wells_by_name()['A1'])
+    p300.drop_tip()
+    p300.pick_up_tip(tiprack300.wells_by_name()['A5'])
+    p300.mix(5,20, tc_plate.wells_by_name()['A2'])
+    p300.drop_tip()
     #Close thermocycler lid and incubate
     tc_mod.close_lid()
     tc_mod.set_lid_temperature(temperature=60)#10 degrees higher than inside 
     #Do we need to set lid temp or is this insignificant?
-    tc_mod.set_block_temperature(temperature=50, hold_time_minutes=15, block_max_volume=40) # check when time starts
+    tc_mod.set_block_temperature(temperature=50, hold_time_minutes=1, block_max_volume=40) # check when time starts
 
     # Do we need to specify new tip etc?
 

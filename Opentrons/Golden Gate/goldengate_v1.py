@@ -36,25 +36,29 @@ def run(protocol: protocol_api.ProtocolContext):
     p300 = protocol.load_instrument('p300_multi', 'right', tip_racks=[tiprack300])
     
     #Transfer H2O - Assembly Reaction + Negative Control
-    p300.transfer(28, reagents.columns_by_name()['1'], tc_plate.columns_by_name()['1'])
-    p300.transfer(18, reagents.columns_by_name()['1'], tc_plate.columns_by_name()['2'])
+    p300.transfer(28, reagents.wells_by_name()['A1'], tc_plate.wells_by_name()['A1'])
+    p300.transfer(18, reagents.wells_by_name()['A1'], tc_plate.wells_by_name()['A2'])
     #Transfer T4 DNA ligase buffer - Assembly Reaction + Negative Control
-    p10.transfer(4, reagents.columns_by_name()['2'], tc_plate.columns_by_name()['1'])
-    p10.transfer(4, reagents.columns_by_name()['2'], tc_plate.columns_by_name()['2'])
+    p10.transfer(4, reagents.wells_by_name()['A2'], tc_plate.wells_by_name()['A1'])
+    p10.transfer(4, reagents.wells_by_name()['A2'], tc_plate.wells_by_name()['A2'])
     #Transfer Destination Plasmid - Assembly Reaction + Negative Control
-    p10.transfer(2, reagents.columns_by_name()['3'], tc_plate.columns_by_name()['1'])
-    p10.transfer(2, reagents.columns_by_name()['3'], tc_plate.columns_by_name()['2'])
+    p10.transfer(2, reagents.wells_by_name()['A3'], tc_plate.wells_by_name()['A1'])
+    p10.transfer(2, reagents.wells_by_name()['A3'], tc_plate.wells_by_name()['A2'])
     #Transfer DNA Fragment 1 - Assembly Reaction + Negative Control 
-    p10.transfer(2, reagents.columns_by_name()['4'], tc_plate.columns_by_name()['1'])
-    p10.transfer(2, reagents.columns_by_name()['4'], tc_plate.columns_by_name()['2'])
+    p10.transfer(2, reagents.wells_by_name()['A4'], tc_plate.wells_by_name()['A1'])
+    p10.transfer(2, reagents.wells_by_name()['A4'], tc_plate.wells_by_name()['A2'])
     #Transfer DNA Fragment 2 - Assembly Reaction + Negative Control 
-    p10.transfer(2, reagents.columns_by_name()['5'], tc_plate.columns_by_name()['1'])
-    p10.transfer(2, reagents.columns_by_name()['5'], tc_plate.columns_by_name()['2'])
-    p300.pick_up_tip(tiprack300.columns_by_name()['3'], presses=1)
-    p300.mix(5, 20, tc_plate.columns_by_name()['2'])
+    p10.transfer(2, reagents.wells_by_name()['A5'], tc_plate.wells_by_name()['A1'])
+    p10.transfer(2, reagents.wells_by_name()['A5'], tc_plate.wells_by_name()['A2'])
+    p300.pick_up_tip(tiprack300.wells_by_name()['A3'])
+    p300.mix(5, 20, tc_plate.wells_by_name()['A1'])
+    p300.drop_tip()
+    p300.pick_up_tip(tiprack300.wells_by_name()['A4'])
+    p300.mix(5, 20, tc_plate.wells_by_name()['A2'])
+    p300.drop_tip()
     ##Transfer Golden Gate Enzyme Mix - Assembly Reaction 
-    #p10.transfer(2, reagents.columns_by_name()['6'], tc_plate.columns_by_name()['1']) 
-    #p300.mix(5, 20, tc_plate.columns_by_name()['1'])
+    #p10.transfer(2, reagents.wells_by_name()['6'], tc_plate.wells_by_name()['1']) 
+    #p300.mix(5, 20, tc_plate.wells_by_name()['1'])
   ##
     ## Define TC profile
     profile = [
