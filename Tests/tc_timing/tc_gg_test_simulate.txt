@@ -1,0 +1,4 @@
+Setting Thermocycler well block temperature to 37.0 °C with a hold time of 1.0 minutes and 0 seconds
+Setting Thermocycler well block temperature to 60.0 °C with a hold time of 1.0 minutes and 0 seconds
+--------------------------------------------------------------
+Estimated protocol duration: 0h:2m
