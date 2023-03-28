@@ -12,14 +12,15 @@ import opentrons.execute
 # Most Metadata is optional but you MUST include "apiLevel"
 metadata = {
     'apiLevel': '2.12',
-    'protocolName': 'Gibson OT API v1.0',
+    'protocolName': 'Gibson OT API v1.1',
     'description': '''This protocol is the first draft of the Gibson assembly protocol as given by: 
                         https://international.neb.com/protocols/2012/12/11/gibson-assembly-protocol-e5510
                          v0.1 changed labware to custom labware (well plate and pcr plate) 
                          v0.2 Changed to new tip=always for transfers excluding first transfer
                          v1.0 Optimising after first dry run: combine all H20 transfers for negative control, 
                                 add p300 right pipette, and change single channel to 8 channel pipettes, 
-                                changed incubation time to 1 min for dry runs''',
+                                changed incubation time to 1 min for dry runs
+                        v1.1 Changed p300 multi to gen2 - could not attach gen1 to OT2 ''',
     'author': 'New API User'
     }
 
@@ -34,7 +35,7 @@ def run(protocol: protocol_api.ProtocolContext):
     tiprack300 = protocol.load_labware('opentrons_96_tiprack_300ul', 2)
     reagents = protocol.load_labware('masterblock_96_wellplate_2000ul', 4)
     p10 = protocol.load_instrument('p10_multi', 'left', tip_racks=[tiprack10])
-    p300 = protocol.load_instrument('p300_multi', 'right', tip_racks=[tiprack300])
+    p300 = protocol.load_instrument('p300_multi_gen2', 'right', tip_racks=[tiprack300])
     
     #Transfer H2O - Assembly Reaction + Negative Control
     p300.transfer(16, reagents.wells_by_name()['A2'], tc_plate.wells_by_name()['A1'])

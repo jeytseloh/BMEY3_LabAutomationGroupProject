@@ -1,0 +1,38 @@
+Picking up tip from A1 of Opentrons 96 Tip Rack 10 킠
+Dropping tip into A1 of Opentrons 96 Tip Rack 10 킠
+Picking up tip from A1 of Opentrons 96 Tip Rack 10 킠
+Aspirating 10uL from/into A1 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dispensing 10uL from/into A2 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from B1 of Opentrons 96 Tip Rack 10 킠
+Aspirating 10uL from/into A1 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dispensing 10uL from/into A2 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from C1 of Opentrons 96 Tip Rack 10 킠
+Aspirating 10uL from/into A1 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dispensing 10uL from/into B2 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from D1 of Opentrons 96 Tip Rack 10 킠
+Aspirating 10uL from/into A1 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dispensing 10uL from/into C2 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from E1 of Opentrons 96 Tip Rack 10 킠
+Aspirating 10uL from/into A1 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dispensing 10uL from/into D2 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from F1 of Opentrons 96 Tip Rack 10 킠
+Aspirating 10uL from/into A1 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dispensing 10uL from/into E2 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from G1 of Opentrons 96 Tip Rack 10 킠
+Aspirating 10uL from/into A1 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dispensing 10uL from/into F2 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from H1 of Opentrons 96 Tip Rack 10 킠
+Aspirating 10uL from/into A1 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dispensing 10uL from/into G2 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 10 킠
+Aspirating 10uL from/into A1 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dispensing 10uL from/into H2 Masterblock 96 Well Plate 2000 킠 at 7.56uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12

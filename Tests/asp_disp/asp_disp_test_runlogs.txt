@@ -1,0 +1,4 @@
+Picking up tip from A1 of Opentrons 96 Tip Rack
+Aspirating  10uL from/into A1 Masterblock 96 Well Plate 2000 µL at 3.78uL/sec
+Dispensing  10uL from/into B1 Masterblock 96 Well Plate 2000 µL at 3.78uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12

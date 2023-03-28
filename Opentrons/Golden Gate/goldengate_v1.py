@@ -13,13 +13,14 @@ import opentrons.execute
 # Most Metadata is optional but you MUST include "apiLevel"
 metadata = {
     'apiLevel': '2.12',
-    'protocolName': 'Golden Gate OT API v1.0',
+    'protocolName': 'Golden Gate OT API v1.1',
     'description': '''This protocol is the first draft of the Golden Gate assembly protocol given by 
     https://international.neb.com/protocols/2018/10/02/golden-gate-assembly-protocol-for-using-neb-golden-gate-assembly-mix-e1601
     v0.1 changed labware to custom labware (well plate and pcr plate)
     v0.2 changed incubation time to 1 min for dry runs
     v1.0 Optimising after first dry run: combine all H20 transfers for negative control, 
-                                add p300 right pipette, and change single channel to 8 channel pipettes''',
+                                add p300 right pipette, and change single channel to 8 channel pipettes
+    v1.1 Changed p300 multi to gen2 - could not attach gen1 to OT2''',
     'author': 'New API User'
     }
 
@@ -33,7 +34,7 @@ def run(protocol: protocol_api.ProtocolContext):
     tiprack300 = protocol.load_labware('opentrons_96_tiprack_300ul', 2)
     reagents = protocol.load_labware('masterblock_96_wellplate_2000ul', 4)
     p10 = protocol.load_instrument('p10_multi', 'left', tip_racks=[tiprack10])
-    p300 = protocol.load_instrument('p300_multi', 'right', tip_racks=[tiprack300])
+    p300 = protocol.load_instrument('p300_multi_gen2', 'right', tip_racks=[tiprack300])
     
     #Transfer H2O - Assembly Reaction + Negative Control
     p300.transfer(28, reagents.wells_by_name()['A1'], tc_plate.wells_by_name()['A1'])
@@ -50,15 +51,16 @@ def run(protocol: protocol_api.ProtocolContext):
     #Transfer DNA Fragment 2 - Assembly Reaction + Negative Control 
     p10.transfer(2, reagents.wells_by_name()['A5'], tc_plate.wells_by_name()['A1'])
     p10.transfer(2, reagents.wells_by_name()['A5'], tc_plate.wells_by_name()['A2'])
+    #Transfer Golden Gate Enzyme Mix - Assembly Reaction 
+    p10.transfer(2, reagents.wells_by_name()['A6'], tc_plate.wells_by_name()['A1']) 
+    
+    #Mix
     p300.pick_up_tip(tiprack300.wells_by_name()['A3'])
     p300.mix(5, 20, tc_plate.wells_by_name()['A1'])
     p300.drop_tip()
     p300.pick_up_tip(tiprack300.wells_by_name()['A4'])
     p300.mix(5, 20, tc_plate.wells_by_name()['A2'])
     p300.drop_tip()
-    ##Transfer Golden Gate Enzyme Mix - Assembly Reaction 
-    #p10.transfer(2, reagents.wells_by_name()['6'], tc_plate.wells_by_name()['1']) 
-    #p300.mix(5, 20, tc_plate.wells_by_name()['1'])
   ##
     ## Define TC profile
     profile = [
