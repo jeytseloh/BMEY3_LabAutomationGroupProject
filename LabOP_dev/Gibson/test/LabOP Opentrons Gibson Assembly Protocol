@@ -12,7 +12,7 @@ digraph _root {
 		gibson_assembly_labop_v2_0_CallBehaviorAction7:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction8:"node" [color=blue]
 		gibson_assembly_labop_v2_0_ForkNode1 -> gibson_assembly_labop_v2_0_CallBehaviorAction9:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction8:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction9:"node" [color=blue]
-		gibson_assembly_labop_v2_0_CallBehaviorAction8:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode1 [color=black]
+		gibson_assembly_labop_v2_0_CallBehaviorAction3:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode1 [color=black]
 		gibson_assembly_labop_v2_0_ForkNode1 -> gibson_assembly_labop_v2_0_CallBehaviorAction10:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction9:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction10:"node" [color=blue]
 		gibson_assembly_labop_v2_0_ForkNode2 -> gibson_assembly_labop_v2_0_CallBehaviorAction11:InputPin1 [color=black]
@@ -24,186 +24,170 @@ digraph _root {
 		gibson_assembly_labop_v2_0_CallBehaviorAction12:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction13:"node" [color=blue]
 		gibson_assembly_labop_v2_0_ForkNode2 -> gibson_assembly_labop_v2_0_CallBehaviorAction14:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction13:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction14:"node" [color=blue]
+		gibson_assembly_labop_v2_0_ForkNode3 -> gibson_assembly_labop_v2_0_CallBehaviorAction15:InputPin2 [color=black]
+		gibson_assembly_labop_v2_0_ForkNode4 -> gibson_assembly_labop_v2_0_CallBehaviorAction15:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction14:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction15:"node" [color=blue]
+		gibson_assembly_labop_v2_0_CallBehaviorAction9:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode3 [color=black]
 		gibson_assembly_labop_v2_0_ForkNode3 -> gibson_assembly_labop_v2_0_CallBehaviorAction16:InputPin2 [color=black]
+		gibson_assembly_labop_v2_0_CallBehaviorAction12:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode4 [color=black]
 		gibson_assembly_labop_v2_0_ForkNode4 -> gibson_assembly_labop_v2_0_CallBehaviorAction16:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction15:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction16:"node" [color=blue]
-		gibson_assembly_labop_v2_0_CallBehaviorAction9:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode3 [color=black]
-		gibson_assembly_labop_v2_0_ForkNode3 -> gibson_assembly_labop_v2_0_CallBehaviorAction17:InputPin2 [color=black]
-		gibson_assembly_labop_v2_0_CallBehaviorAction12:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode4 [color=black]
+		gibson_assembly_labop_v2_0_ForkNode5 -> gibson_assembly_labop_v2_0_CallBehaviorAction17:InputPin2 [color=black]
 		gibson_assembly_labop_v2_0_ForkNode4 -> gibson_assembly_labop_v2_0_CallBehaviorAction17:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction16:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction17:"node" [color=blue]
+		gibson_assembly_labop_v2_0_CallBehaviorAction10:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode5 [color=black]
 		gibson_assembly_labop_v2_0_ForkNode5 -> gibson_assembly_labop_v2_0_CallBehaviorAction18:InputPin2 [color=black]
 		gibson_assembly_labop_v2_0_ForkNode4 -> gibson_assembly_labop_v2_0_CallBehaviorAction18:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction17:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction18:"node" [color=blue]
-		gibson_assembly_labop_v2_0_CallBehaviorAction10:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode5 [color=black]
-		gibson_assembly_labop_v2_0_ForkNode5 -> gibson_assembly_labop_v2_0_CallBehaviorAction19:InputPin2 [color=black]
-		gibson_assembly_labop_v2_0_ForkNode4 -> gibson_assembly_labop_v2_0_CallBehaviorAction19:InputPin1 [color=black]
+		gibson_assembly_labop_v2_0_ForkNode3 -> gibson_assembly_labop_v2_0_CallBehaviorAction19:InputPin2 [color=black]
+		gibson_assembly_labop_v2_0_ForkNode6 -> gibson_assembly_labop_v2_0_CallBehaviorAction19:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction18:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction19:"node" [color=blue]
 		gibson_assembly_labop_v2_0_ForkNode3 -> gibson_assembly_labop_v2_0_CallBehaviorAction20:InputPin2 [color=black]
+		gibson_assembly_labop_v2_0_CallBehaviorAction11:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode6 [color=black]
 		gibson_assembly_labop_v2_0_ForkNode6 -> gibson_assembly_labop_v2_0_CallBehaviorAction20:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction19:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction20:"node" [color=blue]
-		gibson_assembly_labop_v2_0_ForkNode3 -> gibson_assembly_labop_v2_0_CallBehaviorAction21:InputPin2 [color=black]
-		gibson_assembly_labop_v2_0_CallBehaviorAction11:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode6 [color=black]
-		gibson_assembly_labop_v2_0_ForkNode6 -> gibson_assembly_labop_v2_0_CallBehaviorAction21:InputPin1 [color=black]
+		gibson_assembly_labop_v2_0_ForkNode5 -> gibson_assembly_labop_v2_0_CallBehaviorAction21:InputPin2 [color=black]
+		gibson_assembly_labop_v2_0_ForkNode4 -> gibson_assembly_labop_v2_0_CallBehaviorAction21:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction20:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction21:"node" [color=blue]
 		gibson_assembly_labop_v2_0_ForkNode5 -> gibson_assembly_labop_v2_0_CallBehaviorAction22:InputPin2 [color=black]
 		gibson_assembly_labop_v2_0_ForkNode4 -> gibson_assembly_labop_v2_0_CallBehaviorAction22:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction21:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction22:"node" [color=blue]
-		gibson_assembly_labop_v2_0_ForkNode5 -> gibson_assembly_labop_v2_0_CallBehaviorAction23:InputPin2 [color=black]
-		gibson_assembly_labop_v2_0_ForkNode4 -> gibson_assembly_labop_v2_0_CallBehaviorAction23:InputPin1 [color=black]
+		gibson_assembly_labop_v2_0_ForkNode3 -> gibson_assembly_labop_v2_0_CallBehaviorAction23:InputPin2 [color=black]
+		gibson_assembly_labop_v2_0_ForkNode7 -> gibson_assembly_labop_v2_0_CallBehaviorAction23:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction22:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction23:"node" [color=blue]
-		gibson_assembly_labop_v2_0_ForkNode3 -> gibson_assembly_labop_v2_0_CallBehaviorAction24:InputPin2 [color=black]
+		gibson_assembly_labop_v2_0_ForkNode5 -> gibson_assembly_labop_v2_0_CallBehaviorAction24:InputPin2 [color=black]
+		gibson_assembly_labop_v2_0_CallBehaviorAction13:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode7 [color=black]
 		gibson_assembly_labop_v2_0_ForkNode7 -> gibson_assembly_labop_v2_0_CallBehaviorAction24:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction23:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction24:"node" [color=blue]
-		gibson_assembly_labop_v2_0_ForkNode5 -> gibson_assembly_labop_v2_0_CallBehaviorAction25:InputPin2 [color=black]
-		gibson_assembly_labop_v2_0_CallBehaviorAction13:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode7 [color=black]
-		gibson_assembly_labop_v2_0_ForkNode7 -> gibson_assembly_labop_v2_0_CallBehaviorAction25:InputPin1 [color=black]
+		gibson_assembly_labop_v2_0_ForkNode3 -> gibson_assembly_labop_v2_0_CallBehaviorAction25:InputPin2 [color=black]
+		gibson_assembly_labop_v2_0_ForkNode8 -> gibson_assembly_labop_v2_0_CallBehaviorAction25:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction24:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction25:"node" [color=blue]
-		gibson_assembly_labop_v2_0_ForkNode3 -> gibson_assembly_labop_v2_0_CallBehaviorAction26:InputPin2 [color=black]
+		gibson_assembly_labop_v2_0_ForkNode5 -> gibson_assembly_labop_v2_0_CallBehaviorAction26:InputPin2 [color=black]
+		gibson_assembly_labop_v2_0_CallBehaviorAction14:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode8 [color=black]
 		gibson_assembly_labop_v2_0_ForkNode8 -> gibson_assembly_labop_v2_0_CallBehaviorAction26:InputPin1 [color=black]
 		gibson_assembly_labop_v2_0_CallBehaviorAction25:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction26:"node" [color=blue]
-		gibson_assembly_labop_v2_0_ForkNode5 -> gibson_assembly_labop_v2_0_CallBehaviorAction27:InputPin2 [color=black]
-		gibson_assembly_labop_v2_0_CallBehaviorAction14:OutputPin1 -> gibson_assembly_labop_v2_0_ForkNode8 [color=black]
-		gibson_assembly_labop_v2_0_ForkNode8 -> gibson_assembly_labop_v2_0_CallBehaviorAction27:InputPin1 [color=black]
-		gibson_assembly_labop_v2_0_CallBehaviorAction26:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction27:"node" [color=blue]
-		gibson_assembly_labop_v2_0_ForkNode3 -> gibson_assembly_labop_v2_0_CallBehaviorAction28:InputPin1 [color=black]
-		gibson_assembly_labop_v2_0_CallBehaviorAction27:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction28:"node" [color=blue]
-		gibson_assembly_labop_v2_0_CallBehaviorAction28:"node" -> gibson_assembly_labop_v2_0_CallBehaviorAction29:"node" [color=blue]
 		gibson_assembly_labop_v2_0_CallBehaviorAction1 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">specification: tiprack</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">specification: tiprack</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">EmptyContainer</td></tr>
   <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="OutputPin1" border="1">samples</td><td> </td></tr></table></td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_InitialNode1 [label="" fillcolor=black shape=circle style=filled]
 		gibson_assembly_labop_v2_0_CallBehaviorAction2 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">specification: Well plate for reagents</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">specification: Well plate for reagents</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">EmptyContainer</td></tr>
   <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="OutputPin1" border="1">samples</td><td> </td></tr></table></td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction3 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">specification: Destination plate</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">specification: Destination plate</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">EmptyContainer</td></tr>
   <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="OutputPin1" border="1">samples</td><td> </td></tr></table></td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction4 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">instrument: P20 Single GEN2</td><td> </td><td port="ValuePin2" border="1">mount: left</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">instrument: P20 Single GEN2</td><td> </td><td port="ValuePin2" border="1">mount: left</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">ConfigureRobot</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction5 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">instrument: Thermocycler Module</td><td> </td><td port="ValuePin2" border="1">mount: 7</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">instrument: Thermocycler Module</td><td> </td><td port="ValuePin2" border="1">mount: 7</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">ConfigureRobot</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction6 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">rack: tiprack</td><td> </td><td port="ValuePin2" border="1">coordinates: 1</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">rack: tiprack</td><td> </td><td port="ValuePin2" border="1">coordinates: 1</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">LoadRackOnInstrument</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction7 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">rack: Well plate for reagents</td><td> </td><td port="ValuePin2" border="1">coordinates: 4</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">rack: Well plate for reagents</td><td> </td><td port="ValuePin2" border="1">coordinates: 4</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">LoadRackOnInstrument</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction8 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">specification: Destination plate</td><td> </td><td port="ValuePin2" border="1">slots: A1:H12</td><td> </td><td port="ValuePin3" border="1">instrument: Thermocycler Module</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">specification: Destination plate</td><td> </td><td port="ValuePin2" border="1">slots: A1:H12</td><td> </td><td port="ValuePin3" border="1">instrument: Thermocycler Module</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">LoadContainerOnInstrument</td></tr>
   <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="OutputPin1" border="1">samples</td><td> </td></tr></table></td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction9 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="ValuePin1" border="1">coordinates: A1:H1</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="ValuePin1" border="1">coordinates: A1:H1</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">PlateCoordinates</td></tr>
   <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="OutputPin1" border="1">samples</td><td> </td></tr></table></td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction10 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="ValuePin1" border="1">coordinates: A2:H2</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="ValuePin1" border="1">coordinates: A2:H2</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">PlateCoordinates</td></tr>
   <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="OutputPin1" border="1">samples</td><td> </td></tr></table></td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_ForkNode1 [label="" fillcolor=black height=0.02 shape=rectangle style=filled]
 		gibson_assembly_labop_v2_0_CallBehaviorAction11 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="ValuePin1" border="1">coordinates: A1</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="ValuePin1" border="1">coordinates: A1</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">PlateCoordinates</td></tr>
   <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="OutputPin1" border="1">samples</td><td> </td></tr></table></td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction12 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="ValuePin1" border="1">coordinates: A2</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="ValuePin1" border="1">coordinates: A2</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">PlateCoordinates</td></tr>
   <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="OutputPin1" border="1">samples</td><td> </td></tr></table></td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_ForkNode2 [label="" fillcolor=black height=0.02 shape=rectangle style=filled]
 		gibson_assembly_labop_v2_0_CallBehaviorAction13 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="ValuePin1" border="1">coordinates: A3</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="ValuePin1" border="1">coordinates: A3</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">PlateCoordinates</td></tr>
   <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="OutputPin1" border="1">samples</td><td> </td></tr></table></td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction14 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="ValuePin1" border="1">coordinates: A4</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="ValuePin1" border="1">coordinates: A4</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">PlateCoordinates</td></tr>
   <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="OutputPin1" border="1">samples</td><td> </td></tr></table></td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction15 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">cycles: 1</td><td> </td><td port="ValuePin2" border="1">denaturation_temp: 0.0 degree Celsius</td><td> </td><td port="ValuePin3" border="1">denaturation_time: 0.0 minute</td><td> </td><td port="ValuePin4" border="1">annealing_temp: 0.0 degree Celsius</td><td> </td><td port="ValuePin5" border="1">annealing_time: 0.0 second</td><td> </td><td port="ValuePin6" border="1">extension_temp: 0.0 degree Celsius</td><td> </td><td port="ValuePin7" border="1">extension_time: 0.0 second</td><td> </td></tr></table></td></tr>
-  <tr><td port="node" bgcolor="white" border="1">PCR</td></tr>
-</table>> fillcolor=white shape=none style=rounded]
-		gibson_assembly_labop_v2_0_CallBehaviorAction16 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">Transfer</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
-		gibson_assembly_labop_v2_0_CallBehaviorAction17 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 6.0 microliter</td><td> </td></tr></table></td></tr>
+		gibson_assembly_labop_v2_0_CallBehaviorAction16 [label=<<table border="0" cellspacing="0">
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 6.0 microliter</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">Transfer</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_ForkNode3 [label="" fillcolor=black height=0.02 shape=rectangle style=filled]
 		gibson_assembly_labop_v2_0_ForkNode4 [label="" fillcolor=black height=0.02 shape=rectangle style=filled]
-		gibson_assembly_labop_v2_0_CallBehaviorAction18 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td></tr></table></td></tr>
+		gibson_assembly_labop_v2_0_CallBehaviorAction17 [label=<<table border="0" cellspacing="0">
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">Transfer</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
-		gibson_assembly_labop_v2_0_CallBehaviorAction19 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 6.0 microliter</td><td> </td></tr></table></td></tr>
+		gibson_assembly_labop_v2_0_CallBehaviorAction18 [label=<<table border="0" cellspacing="0">
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 6.0 microliter</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">Transfer</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_ForkNode5 [label="" fillcolor=black height=0.02 shape=rectangle style=filled]
-		gibson_assembly_labop_v2_0_CallBehaviorAction20 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td></tr></table></td></tr>
+		gibson_assembly_labop_v2_0_CallBehaviorAction19 [label=<<table border="0" cellspacing="0">
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">Transfer</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
-		gibson_assembly_labop_v2_0_CallBehaviorAction21 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td></tr></table></td></tr>
+		gibson_assembly_labop_v2_0_CallBehaviorAction20 [label=<<table border="0" cellspacing="0">
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">Transfer</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_ForkNode6 [label="" fillcolor=black height=0.02 shape=rectangle style=filled]
+		gibson_assembly_labop_v2_0_CallBehaviorAction21 [label=<<table border="0" cellspacing="0">
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td><td> </td></tr></table></td></tr>
+  <tr><td port="node" bgcolor="white" border="1">Transfer</td></tr>
+</table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction22 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">Transfer</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction23 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 2.0 microliter</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">Transfer</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_CallBehaviorAction24 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 2.0 microliter</td><td> </td></tr></table></td></tr>
-  <tr><td port="node" bgcolor="white" border="1">Transfer</td></tr>
-</table>> fillcolor=white shape=none style=rounded]
-		gibson_assembly_labop_v2_0_CallBehaviorAction25 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 2.0 microliter</td><td> </td></tr></table></td></tr>
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 2.0 microliter</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">Transfer</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_ForkNode7 [label="" fillcolor=black height=0.02 shape=rectangle style=filled]
-		gibson_assembly_labop_v2_0_CallBehaviorAction26 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 2.0 microliter</td><td> </td></tr></table></td></tr>
+		gibson_assembly_labop_v2_0_CallBehaviorAction25 [label=<<table border="0" cellspacing="0">
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 2.0 microliter</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">Transfer</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
-		gibson_assembly_labop_v2_0_CallBehaviorAction27 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 2.0 microliter</td><td> </td></tr></table></td></tr>
+		gibson_assembly_labop_v2_0_CallBehaviorAction26 [label=<<table border="0" cellspacing="0">
+  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">source</td><td> </td><td port="InputPin2" border="1">destination</td><td> </td><td port="ValuePin1" border="1">amount: 2.0 microliter</td><td> </td><td> </td></tr></table></td></tr>
   <tr><td port="node" bgcolor="white" border="1">Transfer</td></tr>
 </table>> fillcolor=white shape=none style=rounded]
 		gibson_assembly_labop_v2_0_ForkNode8 [label="" fillcolor=black height=0.02 shape=rectangle style=filled]
-		gibson_assembly_labop_v2_0_CallBehaviorAction28 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="InputPin1" border="1">samples</td><td> </td><td port="ValuePin1" border="1">amount: 10.0 microliter</td><td> </td><td port="ValuePin2" border="1">cycleCount: 5</td><td> </td></tr></table></td></tr>
-  <tr><td port="node" bgcolor="white" border="1">PipetteMix</td></tr>
-</table>> fillcolor=white shape=none style=rounded]
-		gibson_assembly_labop_v2_0_CallBehaviorAction29 [label=<<table border="0" cellspacing="0">
-  <tr><td><table border="0" cellspacing="-2"><tr><td> </td><td port="ValuePin1" border="1">cycles: 1</td><td> </td><td port="ValuePin2" border="1">denaturation_temp: 50.0 degree Celsius</td><td> </td><td port="ValuePin3" border="1">denaturation_time: 15.0 minute</td><td> </td><td port="ValuePin4" border="1">annealing_temp: 0.0 degree Celsius</td><td> </td><td port="ValuePin5" border="1">annealing_time: 0.0 second</td><td> </td><td port="ValuePin6" border="1">extension_temp: 0.0 degree Celsius</td><td> </td><td port="ValuePin7" border="1">extension_time: 0.0 second</td><td> </td></tr></table></td></tr>
-  <tr><td port="node" bgcolor="white" border="1">PCR</td></tr>
-</table>> fillcolor=white shape=none style=rounded]
 	}
 }
