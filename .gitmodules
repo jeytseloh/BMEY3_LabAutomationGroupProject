@@ -1,0 +1,3 @@
+[submodule "labop"]
+	path = labop
+	url = git@github.com:jeytseloh/labop.git
