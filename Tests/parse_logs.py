@@ -21,8 +21,8 @@ command_map = {
     'dropTip' : "Dropping tip into ",
     'labware-0' : "Destination Plate on Thermocycler Module GEN1",
     'labware-1' : "Opentrons 96 Tip Rack 10 µL",
-    'labware-2' : "Opentrons 96 Tip Rack 300 µL on 2",
-    'labware-3' : "Masterblock 96 Well Plate 2000 µL",
+    #'labware-2' : "Opentrons 96 Tip Rack 300 µL on 2",
+    'labware-2' : "Masterblock 96 Well Plate 2000 µL",
     'fixedTrash' : 'Opentrons Fixed Trash on 12'
 
 
@@ -37,7 +37,11 @@ with open(save_output, 'w') as f:
         print(step["commandType"])
 
         if "volume" in step["params"]:
-            log = command_map[step["commandType"]] + " "+str(step["params"]["volume"]) + 'uL from/into ' + step["params"]["wellName"] +" "+ command_map[step["params"]["labwareId"]] +  " at " + str(step["params"]["flowRate"]) + 'uL/sec'
+            if step["commandType"] == 'aspirate':
+                direction = ' from '
+            elif step["commandType"] == 'dispense':
+                direction = ' into '
+            log = command_map[step["commandType"]] + " "+str(step["params"]["volume"]) + 'uL' + direction + step["params"]["wellName"] +" of "+ command_map[step["params"]["labwareId"]] +  " at " + str(step["params"]["flowRate"]) + 'uL/sec'
             f.write(str(log))
             f.write('\n')
         elif step["commandType"] in command_map.keys():
