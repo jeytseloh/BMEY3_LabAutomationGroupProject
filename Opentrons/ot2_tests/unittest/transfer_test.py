@@ -27,6 +27,9 @@ def run(protocol: protocol_api.ProtocolContext):
     p20 = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[tiprack])
 
     #Transfer 10ul from one well to another (1-1)
-    p20.transfer(10, well_plate.wells_by_name()['A1'], well_plate.wells_by_name()['A2'], new_tip='always') 
+    #p20.transfer(10, well_plate.wells_by_name()['A1'], well_plate.wells_by_name()['A2'], new_tip='always') 
+    p20.transfer(10, well_plate.wells_by_name()['A1'], well_plate.wells_by_name()['A2'])
     #Transfer 10ul from one well to multiple wells (1 - many)
-    p20.transfer(10, well_plate.wells_by_name()['A1'], well_plate.columns_by_name()['2'], new_tip='always') 
+
+    #p20.transfer(10, well_plate.wells_by_name()['A1'], well_plate.columns_by_name()['2'], new_tip='always')
+    p20.transfer(10, well_plate.wells_by_name()['A1'], well_plate.columns_by_name()['2']) 
