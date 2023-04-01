@@ -1,0 +1,66 @@
+Opening Thermocycler lid
+Setting Thermocycler well block temperature to 4.0 °C
+Transferring 16.0 from A2 of Masterblock 96 Well Plate 2000 µL on 4 to A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7
+        Picking up tip from A1 of Opentrons 96 Tip Rack 300 µL on 2
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 150.0 uL/sec
+        Dispensing 16.0 uL into A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 300.0 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 36.0 from A2 of Masterblock 96 Well Plate 2000 µL on 4 to A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7        
+        Picking up tip from A2 of Opentrons 96 Tip Rack 300 µL on 2
+        Aspirating 36.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 150.0 uL/sec
+        Dispensing 36.0 uL into A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 300.0 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 20.0 from A1 of Masterblock 96 Well Plate 2000 µL on 4 to A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7        
+        Picking up tip from A3 of Opentrons 96 Tip Rack 300 µL on 2
+        Aspirating 20.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 150.0 uL/sec
+        Dispensing 20.0 uL into A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 300.0 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 2.0 from A3 of Masterblock 96 Well Plate 2000 µL on 4 to A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7
+        Picking up tip from A1 of Opentrons 96 Tip Rack 10 µL on 1
+        Aspirating 2.0 uL from A3 of Masterblock 96 Well Plate 2000 µL on 4 at 5.0 uL/sec
+        Dispensing 2.0 uL into A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 10.0 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 2.0 from A3 of Masterblock 96 Well Plate 2000 µL on 4 to A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7
+        Picking up tip from A2 of Opentrons 96 Tip Rack 10 µL on 1
+        Aspirating 2.0 uL from A3 of Masterblock 96 Well Plate 2000 µL on 4 at 5.0 uL/sec
+        Dispensing 2.0 uL into A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 10.0 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 2.0 from A4 of Masterblock 96 Well Plate 2000 µL on 4 to A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7
+        Picking up tip from A3 of Opentrons 96 Tip Rack 10 µL on 1
+        Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 5.0 uL/sec
+        Dispensing 2.0 uL into A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 10.0 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 2.0 from A4 of Masterblock 96 Well Plate 2000 µL on 4 to A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7
+        Picking up tip from A4 of Opentrons 96 Tip Rack 10 µL on 1
+        Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 5.0 uL/sec
+        Dispensing 2.0 uL into A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 10.0 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 µL on 2
+Mixing 5 times with a volume of 20.0 ul
+        Aspirating 20.0 uL from A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 150.0 uL/sec
+        Dispensing 20.0 uL into A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 300.0 uL/sec
+        Aspirating 20.0 uL from A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 150.0 uL/sec
+        Dispensing 20.0 uL into A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 300.0 uL/sec
+        Aspirating 20.0 uL from A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 150.0 uL/sec
+        Dispensing 20.0 uL into A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 300.0 uL/sec
+        Aspirating 20.0 uL from A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 150.0 uL/sec
+        Dispensing 20.0 uL into A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 300.0 uL/sec
+        Aspirating 20.0 uL from A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 150.0 uL/sec
+        Dispensing 20.0 uL into A1 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 300.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 µL on 2
+Mixing 5 times with a volume of 20.0 ul
+        Aspirating 20.0 uL from A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 150.0 uL/sec
+        Dispensing 20.0 uL into A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 300.0 uL/sec
+        Aspirating 20.0 uL from A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 150.0 uL/sec
+        Dispensing 20.0 uL into A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 300.0 uL/sec
+        Aspirating 20.0 uL from A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 150.0 uL/sec
+        Dispensing 20.0 uL into A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 300.0 uL/sec
+        Aspirating 20.0 uL from A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 150.0 uL/sec
+        Dispensing 20.0 uL into A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 300.0 uL/sec
+        Aspirating 20.0 uL from A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 150.0 uL/sec
+        Dispensing 20.0 uL into A2 of Framestar 96 Aluminum Block 200 µL on Thermocycler Module GEN1 on 7 at 300.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Closing Thermocycler lid
+Setting Thermocycler lid temperature to 60.0 °C
+Setting Thermocycler well block temperature to 50.0 °C with a hold time of 1.0 minutes and 0.0 seconds
