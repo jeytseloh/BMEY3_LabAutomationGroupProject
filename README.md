@@ -9,7 +9,7 @@
 </h3>
 
 ## 🗂 File Structure
-- [LabOP Protocols/](/BMEY3_LabAutomationGroupProject/LabOP%20Protocols/)
+- [LabOP Protocols/](/LabOP%20Protocols/)
   - [Gibson/](/BMEY3_LabAutomationGroupProject/LabOPProtocols/Gibson/)
   - [Golden Gate/](/BMEY3_LabAutomationGroupProject/LabOPProtocols/Golden%20Gate/)
   - [Tests/](/BMEY3_LabAutomationGroupProject/LabOPProtocols/Tests/)
