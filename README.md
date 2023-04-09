@@ -50,10 +50,10 @@ The LabOP package used specifically for this project can be installed by followi
 
 The original LabOP package can be found here: [Bioprotocols/labop](https://github.com/Bioprotocols/labop).
 Changes made to the LabOP package were mainly to extend the existing functionalities of the OT2Specialization class, which converts the LabOP protocol to the corresponding OT-2 protocol. The following files in the package were modified for this project:
-- [labop_convert/opentrons/opentrons_specialization.py](/labop%20@%20ceb607d/labop_convert/opentrons/opentrons_specialization.py)
-- [labop/lib/liquid_handling.py](/labop%20@%20ceb607d/labop/lib/liquid_handling.py)
-- [labop/lib/plate_handling.py](/labop%20@%20ceb607d/labop/lib/plate_handling.py)
-- [labop/container_ontology.ttl](/labop%20@%20ceb607d/labop/container_ontology.ttl)
+- [labop_convert/opentrons/opentrons_specialization.py](https://github.com/jeytseloh/labop/blob/ceb607dec429ce8576aba8da9d3825fd7e147c23/labop_convert/opentrons/opentrons_specialization.py)
+- [labop/lib/liquid_handling.py](https://github.com/jeytseloh/labop/blob/ceb607dec429ce8576aba8da9d3825fd7e147c23/labop/lib/liquid_handling.py)
+- [labop/lib/plate_handling.py](https://github.com/jeytseloh/labop/blob/ceb607dec429ce8576aba8da9d3825fd7e147c23/labop/lib/plate_handling.py)
+- [labop/container_ontology.ttl](https://github.com/jeytseloh/labop/blob/ceb607dec429ce8576aba8da9d3825fd7e147c23/labop/container-ontology.ttl)
 
 ### Opentrons OT-2 Python API
 Note: Python Version between 3.7.0 and 3.9.9 must be used to be able to simulate the protocols.
