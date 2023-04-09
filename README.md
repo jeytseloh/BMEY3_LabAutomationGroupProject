@@ -29,7 +29,7 @@ Our project focused on the two aims highlighted below:
   - [ot2_tests/](/Opentrons/ot2_tests/)
 - [Process Mapping JSON Files/](/Process%20Mapping%20JSON%20Files/) - JSON files exported from the Opentrons Protocol Designer App used for process mapping
 - [Tests/](/Tests/) - parsed run logs from execution of the unit tests and protocols on the OT-2 robot
-- [labop/](/labop%20@%20ceb607d/) - LabOP package with specific modifications for this project (details below)
+- [labop/](https://github.com/jeytseloh/labop/tree/ceb607dec429ce8576aba8da9d3825fd7e147c23) - LabOP package with specific modifications for this project (details below)
 - [labware/](/labware/) - custom labware defined using the Opentrons Custom Labware Creator
 - [.gitignore](/.gitignore)
 - [.gitmodules](/.gitmodules)
