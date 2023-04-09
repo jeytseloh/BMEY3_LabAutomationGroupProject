@@ -49,6 +49,7 @@ The LabOP package used specifically for this project can be installed by followi
 ```pip3 install . ```
 
 The original LabOP package can be found here: [Bioprotocols/labop](https://github.com/Bioprotocols/labop).
+
 Changes made to the LabOP package were mainly to extend the existing functionalities of the OT2Specialization class, which converts the LabOP protocol to the corresponding OT-2 protocol. The following files in the package were modified for this project:
 - [labop_convert/opentrons/opentrons_specialization.py](https://github.com/jeytseloh/labop/blob/ceb607dec429ce8576aba8da9d3825fd7e147c23/labop_convert/opentrons/opentrons_specialization.py)
 - [labop/lib/liquid_handling.py](https://github.com/jeytseloh/labop/blob/ceb607dec429ce8576aba8da9d3825fd7e147c23/labop/lib/liquid_handling.py)
