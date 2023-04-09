@@ -11,7 +11,7 @@
 ## ℹ️ Project Overview
 The developments in the Synthetic Biology (SynBio) field are currently hindered by a lack of throughput and reproducibility. The root cause of these issues lies in the manual execution of many frequently used protocols in SynBio and the lack of standardisation in their representation.
 
-To address these issues, we used **LabOP (the Laboratory Open Protocol Language)**, a platform-agnostic framework, to automate two widely used protocols, **Golden Gate and Gibson Assembly**, on the Opentrons OT-2 Liquid Handling Robot. The efficacy of LabOP was then evaluated and compared with Opentrons’ proprietary framework, the **OT-2 API**, which we also used to automate the same protocols. While results show that the steps of the original protocols were done in the correct order after automation, further testing on actual reagents would be required to confirm the validity of the automated protocols produced.
+To address these issues, we used [**LabOP (the Laboratory Open Protocol Language)**](https://bioprotocols.github.io/labop/), a platform-agnostic framework, to automate two widely used protocols, **Golden Gate and Gibson Assembly**, on the Opentrons OT-2 Liquid Handling Robot. The efficacy of LabOP was then evaluated and compared with Opentrons’ proprietary framework, the **OT-2 API**, which we also used to automate the same protocols. While results show that the steps of the original protocols were done in the correct order after automation, further testing on actual reagents would be required to confirm the validity of the automated protocols produced.
 
 Our project focused on the two aims highlighted below:
 1.	To automate two DNA Assembly Protocols within SynBio (Golden Gate and Gibson Assembly) using two different automation frameworks (OT-2 Python API and LabOP).
@@ -27,10 +27,10 @@ Our project focused on the two aims highlighted below:
   - [Gibson/](/Opentrons/Gibson/)
   - [Golden Gate/](/Opentrons/Golden%20Gate/)
   - [ot2_tests/](/Opentrons/ot2_tests/)
-- [Process Mapping JSON Files/](/Process%20Mapping%20JSON%20Files/) - JSON files exported from the Opentrons Protocol Designer App used for process mapping
+- [Process Mapping JSON Files/](/Process%20Mapping%20JSON%20Files/) - JSON files exported from the [Opentrons Protocol Designer App](https://designer.opentrons.com/) used for process mapping
 - [Tests/](/Tests/) - parsed run logs from execution of the unit tests and protocols on the OT-2 robot
 - [labop/](https://github.com/jeytseloh/labop/tree/ceb607dec429ce8576aba8da9d3825fd7e147c23) - LabOP package with specific modifications for this project (details below)
-- [labware/](/labware/) - custom labware defined using the Opentrons Custom Labware Creator
+- [labware/](/labware/) - custom labware defined using the [Opentrons Custom Labware Creator](https://labware.opentrons.com/create/)
 - [.gitignore](/.gitignore)
 - [.gitmodules](/.gitmodules)
 - [README.md](/README.md)
