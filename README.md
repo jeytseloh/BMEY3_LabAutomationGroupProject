@@ -28,7 +28,7 @@ Our project focused on the two aims highlighted below:
   - [Golden Gate/](/Opentrons/Golden%20Gate/)
   - [ot2_tests/](/Opentrons/ot2_tests/)
 - [Process Mapping JSON Files/](/Process%20Mapping%20JSON%20Files/) - JSON files exported from the Opentrons Protocol Designer App used for process mapping
-- [Tests/](/Tests/) - contains the unit tests 
+- [Tests/](/Tests/) - parsed run logs from execution of the unit tests and protocols on the OT-2 robot
 - [labop/](/labop/) - LabOP package with specific modifications for this project (details below)
 - [labware/](/labware/) - custom labware defined using the Opentrons Custom Labware Creator
 - [.gitignore](/.gitignore)
@@ -42,14 +42,19 @@ The LabOP package used specifically for this project can be installed by followi
 
 ```git clone https://github.com/jeytseloh/labop.git```
 
-2. Navigate into the repository and install.
+2. Navigate into the repository and install the package.
 
 ```cd labop ```
 
 ```pip3 install . ```
 
+The original LabOP package can be found here: [Bioprotocols/labop](https://github.com/Bioprotocols/labop).
+Changes made to the LabOP package were mainly to extend the existing functionalities of the OT2Specialization class, which converts the LabOP protocol to the corresponding OT-2 protocol. The following files in the package were modified for this project:
+- [labop_convert/opentrons/opentrons_specialization.py](/labop/labop_convert/opentrons/opentrons_specialization.py)
+- [labop/lib/liquid_handling.py](/labop/labop/lib/liquid_handling.py)
+- [labop/lib/plate_handling.py](/labop/labop/lib/plate_handling.py)
+- [labop/container_ontology.ttl](/labop/labop/container_ontology.ttl)
+
 ### Opentrons OT-2 Python API
 Note: Python Version between 3.7.0 and 3.9.9 must be used to be able to simulate the protocols.
-
-## 🛠 Functionality
 
