@@ -17,6 +17,8 @@ Our project focused on the two aims highlighted below:
 1.	To automate two DNA Assembly Protocols within SynBio (Golden Gate and Gibson Assembly) using two different automation frameworks (OT-2 Python API and LabOP).
 2.	To compare and evaluate the automation frameworks used to assist future researchers in developing automated SynBio workflows.
 
+More information on our project can be found on our Wiki page: [Year 3 BME Group Project 22-23: Automation of Laboratory Protocols](https://openwetware.org/wiki/Year_3_BME_Group_Project_22-23:_Automation_of_Laboratory_Protocols).
+
 ## 🗂 File Structure
 - [LabOP Protocols/](/LabOP%20Protocols/) - protocols written using the LabOP API
   - [Gibson/](/LabOP%20Protocols/Gibson/)
