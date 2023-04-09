@@ -1,8 +1,8 @@
 <h1 align="center">
-  🧬 Lab Automation Group Project 🧬
+  🧬 Automation of Laboratory Protocols in Synthetic Biology 🧬
 </h1>
 <h2 align="center">
-  Year 3 Biomedical Engineering 2022-2023 @ Imperial College London
+  Year 3 Biomedical Engineering 2022-2023 Group Project @ Imperial College London
 </h2>
 <h3 align="center">
   Aatish Dhawan, Jay Fung, Sonya Kalsi, Jey Tse Loh & Sakshi Singh 
@@ -59,3 +59,4 @@ Changes made to the LabOP package were mainly to extend the existing functionali
 ### Opentrons OT-2 Python API
 Note: Python Version between 3.7.0 and 3.9.9 must be used to be able to simulate the protocols.
 
+The OT-2 Python API V2 documentation can be found here: [OT-2 Python API V2](https://docs.opentrons.com/v2/)
