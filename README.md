@@ -11,7 +11,7 @@
 ## ℹ️ Project Overview
 The developments in the Synthetic Biology (SynBio) field are currently hindered by a lack of throughput and reproducibility. The root cause of these issues lies in the manual execution of many frequently used protocols in SynBio and the lack of standardisation in their representation.
 
-To address these issues, we used LabOP (the Laboratory Open Protocol Language), a platform-agnostic framework, to automate two widely used protocols, Golden Gate and Gibson Assembly, on the Opentrons OT-2 Liquid Handling Robot. The efficacy of LabOP was then evaluated and compared with Opentrons’ proprietary framework, the OT-2 API, which we also used to automate the same protocols. While results show that the steps of the original protocols were done in the correct order after automation, further testing on actual reagents would be required to confirm the validity of the automated protocols produced.
+To address these issues, we used **LabOP (the Laboratory Open Protocol Language)**, a platform-agnostic framework, to automate two widely used protocols, **Golden Gate and Gibson Assembly**, on the Opentrons OT-2 Liquid Handling Robot. The efficacy of LabOP was then evaluated and compared with Opentrons’ proprietary framework, the **OT-2 API**, which we also used to automate the same protocols. While results show that the steps of the original protocols were done in the correct order after automation, further testing on actual reagents would be required to confirm the validity of the automated protocols produced.
 
 Our project focused on the two aims highlighted below:
 1.	To automate two DNA Assembly Protocols within SynBio (Golden Gate and Gibson Assembly) using two different automation frameworks (OT-2 Python API and LabOP).
