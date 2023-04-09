@@ -38,15 +38,21 @@ Our project focused on the two aims highlighted below:
 ## 🚀 Setup
 ### LabOP API
 The LabOP package used specifically for this project can be installed by following the steps below.
-1.  Clone the 'labop' repository.
+1.  Clone and install the 'labop' repository.
 
 ```git clone https://github.com/jeytseloh/labop.git```
-
-2. Navigate into the repository and install the package.
 
 ```cd labop ```
 
 ```pip3 install . ```
+
+2. Ensure that the 'container-ontology' repository has been installed. Otherwise, clone and install it in its respective directory within 'labop'.
+
+```git clone https://github.com/Bioprotocols/container-ontology.git```
+
+```cd container-ontology```
+
+```pip3 install .```
 
 The original LabOP package can be found here: [Bioprotocols/labop](https://github.com/Bioprotocols/labop).
 
