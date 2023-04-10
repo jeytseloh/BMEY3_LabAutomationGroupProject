@@ -1,4 +1,4 @@
-# LabOP Opentrons Gibson Assembly Protocol
+# LabOP Gibson Assembly Protocol
 
 
 ## Protocol Materials:
