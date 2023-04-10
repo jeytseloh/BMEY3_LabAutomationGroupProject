@@ -16,7 +16,7 @@ def run(protocol: protocol_api.ProtocolContext):
     labware4 = protocol.load_labware('masterblock_96_wellplate_2000ul', '4')
     labware7 = thermocycler_module.load_labware('framestar_96_aluminumblock_200ul')
     p300_multi.transfer(28.0, labware4['A1'], labware7['A1'])  # 1. Transfer 28 ul of nuclease-free H2O (assembly reaction).
-    p300_multi.transfer(28.0, labware4['A1'], labware7['A2'])  # 2. Transfer 30 ul of nuclease-free H2O (negative control).
+    p300_multi.transfer(30.0, labware4['A1'], labware7['A2'])  # 2. Transfer 30 ul of nuclease-free H2O (negative control).
     p10_multi.transfer(4.0, labware4['A2'], labware7['A1'])  # 3. Transfer 4 ul of T4 DNA ligase buffer (assembly reaction).
     p10_multi.transfer(4.0, labware4['A2'], labware7['A2'])  # 4. Transfer 4 ul of T4 DNA ligase buffer (negative control).
     p10_multi.transfer(2.0, labware4['A3'], labware7['A1'])  # 5. Transfer 2 ul of destination plasmid (assembly reaction).
@@ -27,12 +27,12 @@ def run(protocol: protocol_api.ProtocolContext):
     p10_multi.transfer(2.0, labware4['A5'], labware7['A2'])  # 10. Transfer 2 ul of DNA fragment 2 (negative control).
     p10_multi.transfer(2.0, labware4['A6'], labware7['A1'])  # 11. Transfer 2 ul of Golden Gate enzyme mix (assembly reaction).
     
-    p300_multi.pick_up_tip(labware2.wells_by_name()['A3'])
+    p300_multi.pick_up_tip(labware2.wells_by_name()['A3']) # added manually due to missing command in LabOP
     p300_multi.mix(5, 20.0, labware7['A1'])    # 12. Mix assembly reaction (volume 20 ul, 5 repetitions)
-    p300_multi.drop_tip()
-    p300_multi.pick_up_tip(labware2.wells_by_name()['A4'])
+    p300_multi.drop_tip() # added manually due to missing command in LabOP
+    p300_multi.pick_up_tip(labware2.wells_by_name()['A4']) # added manually due to missing command in LabOP
     p300_multi.mix(5, 20.0, labware7['A2'])    # 13. Mix negative control (volume 20 ul, 5 repetitions)
-    p300_multi.drop_tip()
+    p300_multi.drop_tip() # added manually due to missing command in LabOP
     
     # 14. Incubate at 37 degrees for 60 minutes
     thermocycler_module.close_lid()
