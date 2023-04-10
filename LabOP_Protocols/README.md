@@ -10,8 +10,12 @@
 
 ## Version Control
 ### v1
+- Initial version of the protocol
+- Unable to generate the *.md* and *.py* files due to syntax errors
 
 ### v2
+- Fixed syntax errors in executing the protocol to generate the *.md* and *.py* files
+- Unable to generate the 'hold', 'mix' and 'incubate' commands to work
 
 ### v3
 - Final version used for Testing with Liquids
