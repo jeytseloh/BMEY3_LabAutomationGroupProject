@@ -46,6 +46,8 @@ More information on our project can be found on our Wiki page: [Year 3 BME Group
 - [.gitmodules](/.gitmodules)
 - [README.md](/README.md)
 
+Note: Version control of both LabOP and OT2 protocols can be found within the [LabOP_Protocols](/LabOP_Protocols/) and [Opentrons/](/Opentrons/) folders.
+
 ## 🚀 Setup
 ### LabOP API
 The LabOP package used specifically for this project can be installed by following the steps below.
