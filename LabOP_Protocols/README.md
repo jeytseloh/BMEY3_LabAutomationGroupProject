@@ -6,7 +6,7 @@
 - The LabOP protocols are written in *.ipynb* files.
 - Upon execution of the LabOP protocols, the following files are generated:
   - A markdown *.md* file.
-  - A Python *.py* file to be run on the OT-2 robot.
+  - A Python *.py* file to be executed on the OT-2 robot via the [Opentrons Application](https://github.com/Opentrons/opentrons).
 
 ## Version Control
 ### v1
