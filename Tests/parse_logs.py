@@ -1,8 +1,8 @@
 import json
 
-testname = 'goldengate_v0'
+testname = 'gibson_v1'
 
-path_to_file = 'C:/Users/sonya/Documents/y3_proj/BMEY3_LabAutomationGroupProject/Tests/goldengate/SD20181230A10_Golden Gate OT API v0.2_2023-03-16T11_41_13.232Z.json'
+path_to_file = 'BMEY3_LabAutomationGroupProject\Tests\gibson\ot2v1\SD20181230A10_Gibson OT API v1.1_2023-03-20T11_04_56.348Z.json'
 
 with open(path_to_file, 'r') as f:
   data = json.load(f)
@@ -11,7 +11,7 @@ with open(path_to_file, 'r') as f:
 
 
 commands = data['commands']
-#
+
 save_output = testname + '_runlogs.txt'
 
 command_map = {
@@ -19,29 +19,56 @@ command_map = {
     'aspirate' : "Aspirating",
     'dispense' : "Dispensing",
     'dropTip' : "Dropping tip into ",
-    'labware-0' : "Destination Plate on Thermocycler Module GEN1",
-    'labware-1' : "Opentrons 96 Tip Rack 10 µL",
-    'labware-2' : "Opentrons 96 Tip Rack 300 µL on 2",
-    'labware-3' : "Masterblock 96 Well Plate 2000 µL",
-    'fixedTrash' : 'Opentrons Fixed Trash on 12'
+    #'framestar_96_aluminumblock_200ul' : "Framestar 96 Aluminum Block 200 Â\u00b5L on Thermocycler Module GEN1",
+    'framestar_96_aluminumblock_200ul' : "Destination Plate on Thermocycler Module GEN1",
+    'opentrons_96_tiprack_10ul' : "Opentrons 96 Tip Rack 10 Â\u00b5L",
+    'opentrons_96_tiprack_300ul' : "Opentrons 96 Tip Rack 300 Â\u00b5L",
+    'masterblock_96_wellplate_2000ul' : "Masterblock 96 Well Plate 2000 Â\u00b5L",
+    'fixedTrash' : 'Opentrons Fixed Trash',
+    'opentrons_96_tiprack_20ul' : "Opentrons 96 Tip Rack 20 Â\u00b5L",
+    "opentrons_1_trash_1100ml_fixed" : 'Opentrons Fixed Trash',
+    'nest_96_wellplate_200ul_flat' : 'NEST 96 Well Plate 200 Â\u00b5L Flat'
 
 
 }
 
-ignore_command = ["loadLabware", "loadModule", "loadPipette", "thermocycler/openLid", "home", 'moveTo']
-#print(command_map["pickUpTip"])
 
-with open(save_output, 'w') as f:
+with open(save_output, 'w') as f: #opens file to write logs to
 #    
     for step in commands:
-        print(step["commandType"])
 
-        if "volume" in step["params"]:
-            log = command_map[step["commandType"]] + " "+str(step["params"]["volume"]) + 'uL from/into ' + step["params"]["wellName"] +" "+ command_map[step["params"]["labwareId"]] +  " at " + str(step["params"]["flowRate"]) + 'uL/sec'
+
+        if "volume" in step["params"]: #filters aspirate and dispense commands
+            
+            if step["commandType"] == 'aspirate':
+                direction = ' from '
+                speed = '150'
+            elif step["commandType"] == 'dispense':
+                direction = ' into '
+                speed = '300'
+            for i in range(0,len(data["labware"])):
+                if step["params"]["labwareId"] == data["labware"][i]["id"]:
+                    labware = command_map[data["labware"][i]["loadName"]]
+                   
+                    try:
+                        lab_slot = data["labware"][i]["location"]["slotName"] 
+                    except:
+                        lab_slot = data["modules"][0]["location"]["slotName"]
+            log = command_map[step["commandType"]] + " "+str(step["params"]["volume"]) + '.0 uL' + direction + step["params"]["wellName"] +" of "+ labware + " on " + lab_slot +  " at " + str(step["params"]["flowRate"]) + '.0 uL/sec'
             f.write(str(log))
             f.write('\n')
+
+
         elif step["commandType"] in command_map.keys():
-            log = command_map[step["commandType"]] + step["params"]["wellName"] + " of " +command_map[step["params"]["labwareId"]]
+            for i in range(0,len(data["labware"])):
+                
+                if step["params"]["labwareId"] == data["labware"][i]["id"]:
+                    labware = command_map[data["labware"][i]["loadName"]]
+                    try:
+                        lab_slot = data["labware"][i]["location"]["slotName"] 
+                    except:
+                        lab_slot = data["modules"][0]["location"]["slotName"]
+            log = command_map[step["commandType"]] + step["params"]["wellName"] + " of " +labware+ " on " + lab_slot
             f.write(str(log))
             f.write('\n')
         elif "legacyCommandText" in step["params"]:
