@@ -26,8 +26,14 @@ def run(protocol: protocol_api.ProtocolContext):
     p10_multi.transfer(2.0, labware4['A5'], labware7['A1'])  # 9. Transfer 2 ul of DNA fragment 2 (assembly reaction).
     p10_multi.transfer(2.0, labware4['A5'], labware7['A2'])  # 10. Transfer 2 ul of DNA fragment 2 (negative control).
     p10_multi.transfer(2.0, labware4['A6'], labware7['A1'])  # 11. Transfer 2 ul of Golden Gate enzyme mix (assembly reaction).
+    
+    p300_multi.pick_up_tip(labware2.wells_by_name()['A3'])
     p300_multi.mix(5, 20.0, labware7['A1'])    # 12. Mix assembly reaction (volume 20 ul, 5 repetitions)
+    p300_multi.drop_tip()
+    p300_multi.pick_up_tip(labware2.wells_by_name()['A4'])
     p300_multi.mix(5, 20.0, labware7['A2'])    # 13. Mix negative control (volume 20 ul, 5 repetitions)
+    p300_multi.drop_tip()
+    
     # 14. Incubate at 37 degrees for 60 minutes
     thermocycler_module.close_lid()
     thermocycler_module.set_lid_temperature(temperature=47.0)

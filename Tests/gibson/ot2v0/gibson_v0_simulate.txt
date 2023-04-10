@@ -1,122 +1,107 @@
-Transferring 28.0 from A1 of Masterblock 96 Well Plate 2000 µL on 4 to A1 of Destination Plate on Thermocycler Module GEN1 on 7
+Setting Thermocycler well block temperature to 4.0 °C
+Transferring 16.0 from A2 of Masterblock 96 Well Plate 2000 µL on 4 to A1 of Destination Plate on Thermocycler Module GEN1 on 7
         Picking up tip from A1 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 14.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 14.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 16.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 16.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 16.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 16.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 16.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 16.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 16.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 16.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
-Transferring 16.0 from A1 of Masterblock 96 Well Plate 2000 µL on 4 to A2 of Destination Plate on Thermocycler Module GEN1 on 7
+Transferring 16.0 from A2 of Masterblock 96 Well Plate 2000 µL on 4 to A2 of Destination Plate on Thermocycler Module GEN1 on 7
         Picking up tip from B1 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 16.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 16.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 16.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 16.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 16.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 16.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 16.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 16.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 16.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 16.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 16.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 16.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 16.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 16.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Aspirating 16.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Aspirating 16.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 16.0 uL into H2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
-Transferring 4.0 from A2 of Masterblock 96 Well Plate 2000 µL on 4 to A1 of Destination Plate on Thermocycler Module GEN1 on 7
+Transferring 20.0 from A1 of Masterblock 96 Well Plate 2000 µL on 4 to A1 of Destination Plate on Thermocycler Module GEN1 on 7
         Picking up tip from C1 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from D1 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from E1 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from F1 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from G1 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from H1 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from A2 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from B2 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
-Transferring 4.0 from A2 of Masterblock 96 Well Plate 2000 µL on 4 to A2 of Destination Plate on Thermocycler Module GEN1 on 7
+Transferring 20.0 from A2 of Masterblock 96 Well Plate 2000 µL on 4 to A2 of Destination Plate on Thermocycler Module GEN1 on 7
         Picking up tip from C2 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from D2 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from E2 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from F2 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from G2 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from H2 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from A3 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from B3 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 4.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 4.0 uL into H2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Aspirating 20.0 uL from A2 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
+        Dispensing 20.0 uL into H2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
 Transferring 2.0 from A3 of Masterblock 96 Well Plate 2000 µL on 4 to A1 of Destination Plate on Thermocycler Module GEN1 on 7
         Picking up tip from C3 of Opentrons 96 Tip Rack 20 µL on 1
@@ -188,394 +173,232 @@ Transferring 2.0 from A4 of Masterblock 96 Well Plate 2000 µL on 4 to A1 of Des
         Picking up tip from C5 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from D5 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from E5 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from F5 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from G5 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from H5 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from A6 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from B6 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
 Transferring 2.0 from A4 of Masterblock 96 Well Plate 2000 µL on 4 to A2 of Destination Plate on Thermocycler Module GEN1 on 7
         Picking up tip from C6 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from D6 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from E6 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from F6 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from G6 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from H6 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from A7 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+        Mixing 5 times with a volume of 20.0 ul
+                Aspirating 20.0 uL from G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Aspirating 20.0 uL from G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
+                Dispensing 20.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
         Picking up tip from B7 of Opentrons 96 Tip Rack 20 µL on 1
         Aspirating 2.0 uL from A4 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
         Dispensing 2.0 uL into H2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-Transferring 2.0 from A5 of Masterblock 96 Well Plate 2000 µL on 4 to A1 of Destination Plate on Thermocycler Module GEN1 on 7
-        Picking up tip from C7 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from D7 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from E7 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from F7 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from G7 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from H7 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from A8 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from B8 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-Transferring 2.0 from A5 of Masterblock 96 Well Plate 2000 µL on 4 to A2 of Destination Plate on Thermocycler Module GEN1 on 7
-        Picking up tip from C8 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from D8 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from E8 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from F8 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from G8 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from H8 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from A9 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Picking up tip from B9 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A5 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into H2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-Transferring 2.0 from A6 of Masterblock 96 Well Plate 2000 µL on 4 to A1 of Destination Plate on Thermocycler Module GEN1 on 7
-        Picking up tip from C9 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A6 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into A1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from D9 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A6 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into B1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from E9 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A6 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into C1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from F9 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A6 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into D1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from G9 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A6 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into E1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from H9 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A6 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into F1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from A10 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A6 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into G1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from B10 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A6 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into H1 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-Transferring 2.0 from A1 of Masterblock 96 Well Plate 2000 µL on 4 to A2 of Destination Plate on Thermocycler Module GEN1 on 7
-        Picking up tip from C10 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into A2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from D10 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into B2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from E10 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into C2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from F10 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into D2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from G10 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into E2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from H10 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into F2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from A11 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Mixing 5 times with a volume of 20.0 ul
-                Aspirating 20.0 uL from G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Aspirating 20.0 uL from G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-                Dispensing 20.0 uL into G2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
-        Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
-        Picking up tip from B11 of Opentrons 96 Tip Rack 20 µL on 1
-        Aspirating 2.0 uL from A1 of Masterblock 96 Well Plate 2000 µL on 4 at 7.56 uL/sec
-        Dispensing 2.0 uL into H2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Mixing 5 times with a volume of 20.0 ul
                 Aspirating 20.0 uL from H2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
                 Dispensing 20.0 uL into H2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
@@ -588,12 +411,6 @@ Transferring 2.0 from A1 of Masterblock 96 Well Plate 2000 µL on 4 to A2 of Des
                 Aspirating 20.0 uL from H2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
                 Dispensing 20.0 uL into H2 of Destination Plate on Thermocycler Module GEN1 on 7 at 7.56 uL/sec
         Dropping tip into A1 of Opentrons Fixed Trash on 12
-        Logs from this command:
-        WARNING (estimator): Command type 'command.MIX' is not yet supported by the duration estimator.
 Closing Thermocycler lid
-Setting Thermocycler lid temperature to 47.0 °C
-Setting Thermocycler well block temperature to 37.0 °C with a hold time of 60.0 minutes and 0 seconds
-Setting Thermocycler lid temperature to 70.0 °C
-Setting Thermocycler well block temperature to 60.0 °C with a hold time of 5.0 minutes and 0 seconds
---------------------------------------------------------------
-Estimated protocol duration: 1h:42m
+Setting Thermocycler lid temperature to 60.0 °C
+Setting Thermocycler well block temperature to 50.0 °C with a hold time of 15.0 minutes and 0 seconds

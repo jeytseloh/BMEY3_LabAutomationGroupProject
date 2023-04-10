@@ -10,7 +10,7 @@ import opentrons.execute
 
 # Most Metadata is optional but you MUST include "apiLevel"
 metadata = {
-    'apiLevel': '2.0',
+    'apiLevel': '2.12',
     'protocolName': 'Thermocycler Transfer Unit Test v0.3',
     'description': '''This protocol is a unit test designed to test transfers to PCR plates in the thermocycler   
                     v0.1 Changed tiprack to 10ul

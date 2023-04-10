@@ -23,9 +23,14 @@ def run(protocol: protocol_api.ProtocolContext):
     p10_multi.transfer(2.0, labware4['A3'], labware7['A2'])  # 6. Add 2 ul DNA fragment 1 for negative control
     p10_multi.transfer(2.0, labware4['A4'], labware7['A1'])  # 7. Add 2 ul DNA fragment 2 for assembly reaction
     p10_multi.transfer(2.0, labware4['A4'], labware7['A2'])  # 8. Add 2 ul DNA fragment 2 for negative control
+    
+    p300_multi.pick_up_tip(labware2.wells_by_name()['A4'])
     p300_multi.mix(5, 20.0, labware7['A1'])    # 9. Mix assembly reaction (volume 20 ul, 5 repetitions)
+    p300_multi.drop_tip()
+    p300_multi.pick_up_tip(labware2.wells_by_name()['A5'])
     p300_multi.mix(5, 20.0, labware7['A2'])    # 10. Mix negative control (volume 20 ul, 5 repetitions)
+    p300_multi.drop_tip()
     # 11. Incubate at 50 C for 15 minutes
     thermocycler_module.close_lid()
     thermocycler_module.set_lid_temperature(temperature=60.0)
-    thermocycler_module.set_block_temperature(temperature=50.0, hold_time_minutes=15.0)
+    thermocycler_module.set_block_temperature(temperature=50.0, hold_time_minutes=1.0)

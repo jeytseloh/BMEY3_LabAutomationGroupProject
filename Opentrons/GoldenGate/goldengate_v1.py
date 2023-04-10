@@ -37,48 +37,39 @@ def run(protocol: protocol_api.ProtocolContext):
     p300 = protocol.load_instrument('p300_multi_gen2', 'right', tip_racks=[tiprack300])
     
     #Transfer H2O - Assembly Reaction + Negative Control
-    p300.transfer(28, reagents.wells_by_name()['A1'], tc_plate.wells_by_name()['A1'])
-    p300.transfer(18, reagents.wells_by_name()['A1'], tc_plate.wells_by_name()['A2'])
+    p300.transfer(28, reagents.wells_by_name()['A1'], tc_plate.wells_by_name()['A1']) # 1. Transfer 28 ul of nuclease-free H2O (assembly reaction).
+    p300.transfer(30, reagents.wells_by_name()['A1'], tc_plate.wells_by_name()['A2']) # 2. Transfer 30 ul of nuclease-free H2O (negative control).
     #Transfer T4 DNA ligase buffer - Assembly Reaction + Negative Control
-    p10.transfer(4, reagents.wells_by_name()['A2'], tc_plate.wells_by_name()['A1'])
-    p10.transfer(4, reagents.wells_by_name()['A2'], tc_plate.wells_by_name()['A2'])
+    p10.transfer(4, reagents.wells_by_name()['A2'], tc_plate.wells_by_name()['A1']) # 3. Transfer 4 ul of T4 DNA ligase buffer (assembly reaction).
+    p10.transfer(4, reagents.wells_by_name()['A2'], tc_plate.wells_by_name()['A2']) # 4. Transfer 4 ul of T4 DNA ligase buffer (negative control).
     #Transfer Destination Plasmid - Assembly Reaction + Negative Control
-    p10.transfer(2, reagents.wells_by_name()['A3'], tc_plate.wells_by_name()['A1'])
-    p10.transfer(2, reagents.wells_by_name()['A3'], tc_plate.wells_by_name()['A2'])
+    p10.transfer(2, reagents.wells_by_name()['A3'], tc_plate.wells_by_name()['A1']) # 5. Transfer 2 ul of destination plasmid (assembly reaction).
+    p10.transfer(2, reagents.wells_by_name()['A3'], tc_plate.wells_by_name()['A2']) # 6. Transfer 2 ul of destination plasmid (negative control).
     #Transfer DNA Fragment 1 - Assembly Reaction + Negative Control 
-    p10.transfer(2, reagents.wells_by_name()['A4'], tc_plate.wells_by_name()['A1'])
-    p10.transfer(2, reagents.wells_by_name()['A4'], tc_plate.wells_by_name()['A2'])
+    p10.transfer(2, reagents.wells_by_name()['A4'], tc_plate.wells_by_name()['A1']) # 7. Transfer 2 ul of DNA fragment 1 (assembly reaction).
+    p10.transfer(2, reagents.wells_by_name()['A4'], tc_plate.wells_by_name()['A2']) # 8. Transfer 2 ul of DNA fragment 1 (negative control).
     #Transfer DNA Fragment 2 - Assembly Reaction + Negative Control 
-    p10.transfer(2, reagents.wells_by_name()['A5'], tc_plate.wells_by_name()['A1'])
-    p10.transfer(2, reagents.wells_by_name()['A5'], tc_plate.wells_by_name()['A2'])
+    p10.transfer(2, reagents.wells_by_name()['A5'], tc_plate.wells_by_name()['A1']) # 9. Transfer 2 ul of DNA fragment 2 (assembly reaction).
+    p10.transfer(2, reagents.wells_by_name()['A5'], tc_plate.wells_by_name()['A2']) # 10. Transfer 2 ul of DNA fragment 2 (negative control).
     #Transfer Golden Gate Enzyme Mix - Assembly Reaction 
-    p10.transfer(2, reagents.wells_by_name()['A6'], tc_plate.wells_by_name()['A1']) 
+    p10.transfer(2, reagents.wells_by_name()['A6'], tc_plate.wells_by_name()['A1']) # 11. Transfer 2 ul of Golden Gate enzyme mix (assembly reaction).
     
     #Mix
     p300.pick_up_tip(tiprack300.wells_by_name()['A3'])
-    p300.mix(5, 20, tc_plate.wells_by_name()['A1'])
+    p300.mix(5, 20, tc_plate.wells_by_name()['A1']) # 12. Mix assembly reaction (volume 20 ul, 5 repetitions)
     p300.drop_tip()
     p300.pick_up_tip(tiprack300.wells_by_name()['A4'])
-    p300.mix(5, 20, tc_plate.wells_by_name()['A2'])
+    p300.mix(5, 20, tc_plate.wells_by_name()['A2']) # 13. Mix negative control (volume 20 ul, 5 repetitions)
     p300.drop_tip()
-  ##
-    ## Define TC profile
-    profile = [
-    {'temperature': 37, 'hold_time_seconds': 3600},
-    {'temperature': 60, 'hold_time_seconds': 300}]
     
     #Close thermocycler lid and incubate
     tc_mod.close_lid()
-    #Incubate at 37 degrees for 60 minutes
+    # 14. Incubate at 37 degrees for 60 minutes
     tc_mod.set_lid_temperature(temperature=47)#10 degrees higher than inside
-    tc_mod.set_block_temperature(temperature=37, hold_time_minutes=1, block_max_volume=40) # check when time starts
-
-    #Incubate at 60 degrees for 5 minutes
+    tc_mod.set_block_temperature(temperature=37, hold_time_minutes=1, block_max_volume=40) 
+    # 15. Incubate at 60 degrees for 5 minutes
     tc_mod.set_lid_temperature(temperature=70)#10 degrees higher than inside
-    tc_mod.set_block_temperature(temperature=60, hold_time_minutes=1, block_max_volume=40) # check when time starts
+    tc_mod.set_block_temperature(temperature=60, hold_time_minutes=1, block_max_volume=40) 
 
 
-    #Do we need to specify lid temp separately here?/ Do we even need to set lid temp?
-    #tc_mod.execute_profile(steps=profile, repetitions=1, block_max_volume=40)
-
-    # Do we need to specify new tip etc?
+    

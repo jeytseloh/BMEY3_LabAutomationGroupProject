@@ -1,0 +1,45 @@
+Transferring 10.0 from A1 of NEST 96 Well Plate 200 µL Flat on 4 to A2 of NEST 96 Well Plate 200 µL Flat on 4
+        Picking up tip from A1 of Opentrons 96 Tip Rack 10 µL on 1
+        Aspirating 10.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dispensing 10.0 uL into A2 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 10.0 from A1 of NEST 96 Well Plate 200 µL Flat on 4 to A2 of NEST 96 Well Plate 200 µL Flat on 4
+        Picking up tip from B1 of Opentrons 96 Tip Rack 10 µL on 1
+        Aspirating 10.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dispensing 10.0 uL into A2 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 10.0 from A1 of NEST 96 Well Plate 200 µL Flat on 4 to B2 of NEST 96 Well Plate 200 µL Flat on 4
+        Picking up tip from C1 of Opentrons 96 Tip Rack 10 µL on 1
+        Aspirating 10.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dispensing 10.0 uL into B2 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 10.0 from A1 of NEST 96 Well Plate 200 µL Flat on 4 to C2 of NEST 96 Well Plate 200 µL Flat on 4
+        Picking up tip from D1 of Opentrons 96 Tip Rack 10 µL on 1
+        Aspirating 10.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dispensing 10.0 uL into C2 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 10.0 from A1 of NEST 96 Well Plate 200 µL Flat on 4 to D2 of NEST 96 Well Plate 200 µL Flat on 4
+        Picking up tip from E1 of Opentrons 96 Tip Rack 10 µL on 1
+        Aspirating 10.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dispensing 10.0 uL into D2 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 10.0 from A1 of NEST 96 Well Plate 200 µL Flat on 4 to E2 of NEST 96 Well Plate 200 µL Flat on 4
+        Picking up tip from F1 of Opentrons 96 Tip Rack 10 µL on 1
+        Aspirating 10.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dispensing 10.0 uL into E2 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 10.0 from A1 of NEST 96 Well Plate 200 µL Flat on 4 to F2 of NEST 96 Well Plate 200 µL Flat on 4
+        Picking up tip from G1 of Opentrons 96 Tip Rack 10 µL on 1
+        Aspirating 10.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dispensing 10.0 uL into F2 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 10.0 from A1 of NEST 96 Well Plate 200 µL Flat on 4 to G2 of NEST 96 Well Plate 200 µL Flat on 4
+        Picking up tip from H1 of Opentrons 96 Tip Rack 10 µL on 1
+        Aspirating 10.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dispensing 10.0 uL into G2 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 10.0 from A1 of NEST 96 Well Plate 200 µL Flat on 4 to H2 of NEST 96 Well Plate 200 µL Flat on 4
+        Picking up tip from A2 of Opentrons 96 Tip Rack 10 µL on 1
+        Aspirating 10.0 uL from A1 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dispensing 10.0 uL into H2 of NEST 96 Well Plate 200 µL Flat on 4 at 7.56 uL/sec
+        Dropping tip into A1 of Opentrons Fixed Trash on 12
