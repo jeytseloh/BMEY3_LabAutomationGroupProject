@@ -1,11 +1,13 @@
-# LabOP Opentrons Gibson Assembly Protocol
+# LabOP Golden Gate Assembly Protocol
 
 
 ## Protocol Materials:
-* [Water, sterile-filtered, BioReagent, suitable for cell culture](https://pubchem.ncbi.nlm.nih.gov/substance/24901740)
-* [Gibson Assembly Master Mix](gibsonassemblymastermix)
+* [Nuclease-free H2O](nucleasefreeh2o)
+* [T4 DNA Ligase Buffer](t4dnaligasebuffer)
+* [Destination Plasmid](destinationplasmid)
 * [DNA Fragment 1](dnafragments1)
 * [DNA Fragment 2](dnafragments2)
+* [Golden Gate Enzyme Mix](ggenzymemix)
 * Opentrons 96 Tip Rack 10 µL
 * `Well plate for reagents` (NEST 96 Well Plate)
 * `Destination plate` (Bio-Rad 96 well PCR plate)

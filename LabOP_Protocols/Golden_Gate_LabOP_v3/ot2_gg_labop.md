@@ -22,7 +22,7 @@
 6. Load `Well plate for reagents` in Deck 4 of OT2 instrument
 7. Load `Destination plate` in A1:H12 of Deck of OT2 instrument
 8. Transfer 28.0 microliter of resouce from labware4 into labware7
-9. Transfer 28.0 microliter of resouce from labware4 into labware7
+9. Transfer 30.0 microliter of resouce from labware4 into labware7
 10. Transfer 4.0 microliter of resouce from labware4 into labware7
 11. Transfer 4.0 microliter of resouce from labware4 into labware7
 12. Transfer 2.0 microliter of resouce from labware4 into labware7

@@ -1,8 +1,8 @@
-# LabOP Opentrons Gibson Assembly Protocol
+# LabOP Gibson Assembly Protocol
 
 
 ## Protocol Materials:
-* [Water, sterile-filtered, BioReagent, suitable for cell culture](https://pubchem.ncbi.nlm.nih.gov/substance/24901740)
+* [Deionized H2O](deionizedh2o)
 * [Gibson Assembly Master Mix](gibsonassemblymastermix)
 * [DNA Fragment 1](dnafragments1)
 * [DNA Fragment 2](dnafragments2)
