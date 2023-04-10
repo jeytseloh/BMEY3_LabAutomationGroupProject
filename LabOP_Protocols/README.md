@@ -1,5 +1,5 @@
 <h1 align="center">
-  Gibson and Golden Gate Protocols - LabOP
+  🧬 Gibson and Golden Gate Protocols - LabOP 🧬
 </h1>
 
 ## File Contents
