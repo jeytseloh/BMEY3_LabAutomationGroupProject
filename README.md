@@ -51,7 +51,7 @@ Note: Version control of both LabOP and OT2 protocols can be found within the [L
 ## 🚀 Setup
 ### LabOP API
 The LabOP package used specifically for this project can be installed by following the steps below.
-1.  Clone and install the 'labop' repository.
+1.  Clone and install the *'labop'* repository.
 
 ```git clone https://github.com/jeytseloh/labop.git```
 
@@ -59,7 +59,7 @@ The LabOP package used specifically for this project can be installed by followi
 
 ```pip3 install . ```
 
-2. Ensure that the 'container-ontology' repository has been installed. Otherwise, clone and install it in its respective directory within 'labop'.
+2. Ensure that the *'container-ontology'* repository has been installed. Otherwise, clone and install it in its respective directory within *'labop'*.
 
 ```git clone https://github.com/Bioprotocols/container-ontology.git```
 
@@ -69,13 +69,13 @@ The LabOP package used specifically for this project can be installed by followi
 
 The original LabOP package can be found here: [Bioprotocols/labop](https://github.com/Bioprotocols/labop).
 
-Changes made to the LabOP package were mainly to extend the existing functionalities of the OT2Specialization class, which converts the LabOP protocol to the corresponding OT-2 protocol. The following files in the package were modified for this project:
+Changes made to the LabOP package were mainly to extend the existing functionalities of the *OT2Specialization* class, which converts the LabOP protocol to the corresponding OT-2 protocol. The following files in the package were modified for this project:
 - [labop_convert/opentrons/opentrons_specialization.py](https://github.com/jeytseloh/labop/blob/ceb607dec429ce8576aba8da9d3825fd7e147c23/labop_convert/opentrons/opentrons_specialization.py)
 - [labop/lib/liquid_handling.py](https://github.com/jeytseloh/labop/blob/ceb607dec429ce8576aba8da9d3825fd7e147c23/labop/lib/liquid_handling.py)
 - [labop/lib/plate_handling.py](https://github.com/jeytseloh/labop/blob/ceb607dec429ce8576aba8da9d3825fd7e147c23/labop/lib/plate_handling.py)
 - [labop/container_ontology.ttl](https://github.com/jeytseloh/labop/blob/ceb607dec429ce8576aba8da9d3825fd7e147c23/labop/container-ontology.ttl)
 
 ### Opentrons OT-2 Python API
-Python 3.7 or higher is required. However, **Python 3.10** currently does not allow for protocol simulation. It is recommended to use a version between 3.7.0 and 3.9.9. More information can be found [here](https://support.opentrons.com/s/article/Simulating-OT-2-protocols-on-your-computer?).
+Python 3.7 or higher is required. However, *Python 3.10* currently does not allow for protocol simulation. It is recommended to use a version between 3.7.0 and 3.9.9. More information can be found [here](https://support.opentrons.com/s/article/Simulating-OT-2-protocols-on-your-computer?).
 
 The OT-2 Python API V2 documentation can be found here: [OT-2 Python API V2](https://docs.opentrons.com/v2/)
